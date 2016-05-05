@@ -1,0 +1,11 @@
+id,identifier,name,mdu_color_identifier
+1,ma,Mathematics,deep_orange
+2,sci,Science (General),green
+3,bio,Biology,green
+4,chem,Chemistry,red
+5,phys,Physics,deep_purple
+6,en-lang,English Language,light_blue
+7,en-lit,English Literature,light_blue
+8,hi,History,purple
+9,gg,Geography,light_green
+10,rs,Ethics / Religious Studies,deep_orange

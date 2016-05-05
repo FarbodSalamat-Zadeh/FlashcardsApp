@@ -1,0 +1,30 @@
+id,question,answer,page_ref,is_paper_2
+1,What is a magnetic field?,A <b>region</b> where <b>magnetic materials</b> (e.g. iron) experience a <b>force</b>.,63,0
+2,In which direction do magnetic field lines always point?,<b>North</b> to <b>south</b>.,63,0
+3,Give examples of two ways to observe magnetic field patterns,"<b>Compasses</b>:<br>You can use multiple compasses to record the direction of magnetic field lines near a magnet <br><br><b>Iron filings</b>:<br>Put the magnet under a piece of paper and scatter iron filings on top. You will see the filings have aligned themselves to various positions, which is the magnetic field pattern.",63,0
+4,"In magnets, how do like poles and opposite poles react to each other?",Like poles <b>repel</b> and opposite poles <b>attract</b>,63,1
+5,Describe the magnetic field patterns of repelling bar magnets,#see-guide,63,1
+6,What does the magnetic field pattern look like in two attracting bar magnets?,#see-guide,63,1
+7,Describe <b>induced magnetism</b>,"When a magnet is brought <b>near</b> a magnetic material, then that material acts as a <b>magnet</b>. This magnetism has been <b>induced</b> by the original magnet. <br><br>The <b>closer</b> the magnet and the magnetic material get, the <b>stronger</b> the induced magnetism will be.",63,1
+8,A current-carrying wire creates...,A magnetic field,64,0
+9,"In a current-carrying wire, what two factors affect the magnetic field and how?","The <b>larger</b> the electric current, the <b>stronger</b> the magnetic field. <br><br>The <b>direction</b> of the <b>magnetic field</b> depends on the <b>direction</b> of the current.",64,0
+10,Describe the magnetic field pattern around a <b>straight wire</b>,"There is a magnetic field around a <b>straight</b>, <b>current-carrying</b> wire, made up of <b>concentric circles</b> with the wire in the centre.",64,1
+11,What does the magnetic field around a <b>flat circular coil</b> look like?,The magnetic field in the <b>centre</b> of this wire is similar to that of a <b>bar magnet</b>. <br><br>There are concentric <b>ellipses</b> of magnetic field lines <b>around</b> the coil.,64,1
+12,Define <b>solenoid</b>,A cylindrical <b>coil of wire</b> (which acts as a magnet when an electric current is passed through),64,1
+13,Describe the magnetic field pattern around a <b>solenoid</b>,"The magnetic field is <b>strong</b> and <b>uniform</b>. <br><br><b>Outside</b> the coil, the field is just like the one around a <b>bar magnet</b>, so the <b>ends</b> of the solenoid act like the <b>'north'</b> and <b>'south'</b> of a bar magnet. <br><br>This type of magnet is callled an <b>electromagnet</b>.",64,1
+14,Give an example of a <b>soft</b> magnetic material,Iron,64,1
+15,Name a <b>hard</b> magnetic material,Steel,64,1
+16,What does it mean for a magnetic material to be <b>'soft'</b>,It <b>loses</b> its induced magnetism <b>quickly</b>.,64,1
+17,"If a magnetic material keeps its induced magnetism permanently, it is...",A <b>hard</b> magnetic material,64,1
+18,What material is used in <b>transformers</b> and why?,"<b>Iron</b> because it is a <b>soft</b> magnetic material. <br><br>In transformers, it needs to magnetise and demagnetise 50x per second (mains electricity in the UK is 50 Hz).",64,1
+19,How can you increase the <b>strength</b> of the magnetic field around a solenoid?,Adding a magnetically <b>'soft' iron core</b> through the middle of the coil.,64,1
+20,The motor effect can happen when...,You put a <b>current-carrying wire</b> in a <b>magnetic field</b>,65,0
+21,What is the motor effect?,"When a <b>current-carrying wire</b> is put between magnetic poles, the two <b>magnetic fields</b> affect one another. <br><br>The result is a <b>force</b> on the wire, which can cause the <b>wire</b> to <b>move</b>.",65,0
+22,Why does the motor effect work?,"<b>Charged particles</b> (e.g. electrons in a current) moving through a magnetic field will experience a <b>force</b>, as long as they're not moving parallel to the field lines.",65,1
+23,A current in a magnetic field experiences <b>full force</b> when...,"The <b>wire</b> has to be at <b>90&deg;</b> to the <b>magnetic field</b>. <br><br>If the wire runs <b>along</b> the <b>magnetic field</b>, it won't experience <b>any force at all</b>. At angles in between, it'll feel <b>some force.",65,0
+24,"In a current-carrying wire in a magnetic field, in which direction does the force act?",The force always acts in the <b>same direction</b> relative to the <b>magnetic field</b> of the magnets and the <b>direction of the current</b> in the wire.,65,0
+25,How can you show the <b>direction of the force</b> of a current-carrying wire in a magnetic field?,"Apply a current to a set of <b>rails</b> inside a <b>horseshoe magnet</b>. A bar is placed on the rails, which <b>completes the circuit</b>. This generates a <b>force</b> that <b>rolls the bar</b> along the rails.",65,0
+26,The <b>magnitude</b> (strength) of the force of a current-carrying wire in magnetic field depends on...,The strength of the <b>magnetic field</b> or the amount of <b>current</b>,65,0
+27,How can the <b>direction</b> of the force of a current-carrying wire in magnetic field be reversed?,<b>Reversing</b> the <b>current</b> or the <b>magnetic field</b>,65,0
+28,What is Fleming's left-hand rule?,Using your left-hand: <br><br>&bull; <b>F</b>irst finger = direction of the <b>F<b>ield <br>&bull; <b>Se<b>C</b>ond finger = direction of the <b>C</b>urrent <br>&bull; Thu<b>M</b> = direction of the force (<b>M</b>otion),65,0
+29,What <b>four</b> factors can speed up an electric motor?,&bull; More current <br>&bull; More turns on the coil <br>&bull; Stronger magnetic field <br>&bull; A soft iron core in the coil,66,0

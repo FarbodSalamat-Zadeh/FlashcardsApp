@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2016 Farbod Salamat-Zadeh
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+
+    <!-- TODO: add to mdu lib -->
+
+    <style name="MduTheme" parent="AppTheme" />
+
+    <style name="MduTheme.Amber">
+        <item name="colorPrimary">@color/mdu_amber_500</item>
+        <item name="colorPrimaryDark">@color/mdu_amber_700</item>
+        <item name="colorAccent">@color/mdu_light_blue_a200</item>
+    </style>
+
+    <style name="MduTheme.Blue">
+        <item name="colorPrimary">@color/mdu_blue_500</item>
+        <item name="colorPrimaryDark">@color/mdu_blue_700</item>
+        <item name="colorAccent">@color/mdu_pink_a200</item>
+    </style>
+
+    <style name="MduTheme.BlueGrey">
+        <item name="colorPrimary">@color/mdu_blue_grey_500</item>
+        <item name="colorPrimaryDark">@color/mdu_blue_grey_700</item>
+        <item name="colorAccent">@color/mdu_blue_a200</item>
+    </style>
+
+    <style name="MduTheme.Brown">
+        <item name="colorPrimary">@color/mdu_brown_500</item>
+        <item name="colorPrimaryDark">@color/mdu_brown_700</item>
+        <item name="colorAccent">@color/mdu_orange_a200</item>
+    </style>
+
+    <style name="MduTheme.Cyan">
+        <item name="colorPrimary">@color/mdu_cyan_500</item>
+        <item name="colorPrimaryDark">@color/mdu_cyan_700</item>
+        <item name="colorAccent">@color/mdu_deep_orange_a200</item>
+    </style>
+
+    <style name="MduTheme.DeepOrange">
+        <item name="colorPrimary">@color/mdu_deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/mdu_deep_orange_700</item>
+        <item name="colorAccent">@color/mdu_blue_a200</item>
+    </style>
+
+    <style name="MduTheme.DeepPurple">
+        <item name="colorPrimary">@color/mdu_deep_purple_500</item>
+        <item name="colorPrimaryDark">@color/mdu_deep_purple_700</item>
+        <item name="colorAccent">@color/mdu_pink_a200</item>
+    </style>
+
+    <style name="MduTheme.Green">
+        <item name="colorPrimary">@color/mdu_green_500</item>
+        <item name="colorPrimaryDark">@color/mdu_green_700</item>
+        <item name="colorAccent">@color/mdu_orange_a100</item>
+    </style>
+
+    <style name="MduTheme.Grey">
+        <item name="colorPrimary">@color/mdu_grey_500</item>
+        <item name="colorPrimaryDark">@color/mdu_grey_700</item>
+        <item name="colorAccent">@color/mdu_blue_a200</item>
+    </style>
+
+    <style name="MduTheme.Indigo">
+        <item name="colorPrimary">@color/mdu_indigo_500</item>
+        <item name="colorPrimaryDark">@color/mdu_indigo_700</item>
+        <item name="colorAccent">@color/mdu_pink_a200</item>
+    </style>
+
+    <style name="MduTheme.LightBlue">
+        <item name="colorPrimary">@color/mdu_light_blue_500</item>
+        <item name="colorPrimaryDark">@color/mdu_light_blue_700</item>
+        <item name="colorAccent">@color/mdu_red_a200</item>
+    </style>
+
+    <style name="MduTheme.LightGreen">
+        <item name="colorPrimary">@color/mdu_light_green_500</item>
+        <item name="colorPrimaryDark">@color/mdu_light_green_700</item>
+        <item name="colorAccent">@color/mdu_yellow_a100</item>
+    </style>
+
+    <style name="MduTheme.Lime">
+        <item name="colorPrimary">@color/mdu_lime_500</item>
+        <item name="colorPrimaryDark">@color/mdu_lime_700</item>
+        <item name="colorAccent">@color/mdu_orange_a400</item>
+    </style>
+
+    <style name="MduTheme.Orange">
+        <item name="colorPrimary">@color/mdu_orange_500</item>
+        <item name="colorPrimaryDark">@color/mdu_orange_700</item>
+        <item name="colorAccent">@color/mdu_blue_a200</item>
+    </style>
+
+    <style name="MduTheme.Pink">
+        <item name="colorPrimary">@color/mdu_pink_500</item>
+        <item name="colorPrimaryDark">@color/mdu_pink_700</item>
+        <item name="colorAccent">@color/mdu_blue_a400</item>
+    </style>
+
+    <style name="MduTheme.Purple">
+        <item name="colorPrimary">@color/mdu_purple_500</item>
+        <item name="colorPrimaryDark">@color/mdu_purple_700</item>
+        <item name="colorAccent">@color/mdu_pink_a200</item>
+    </style>
+
+    <style name="MduTheme.Red">
+        <item name="colorPrimary">@color/mdu_red_500</item>
+        <item name="colorPrimaryDark">@color/mdu_red_700</item>
+        <item name="colorAccent">@color/mdu_blue_a400</item>
+    </style>
+
+    <style name="MduTheme.Teal">
+        <item name="colorPrimary">@color/mdu_teal_500</item>
+        <item name="colorPrimaryDark">@color/mdu_teal_700</item>
+        <item name="colorAccent">@color/mdu_orange_a200</item>
+    </style>
+
+    <style name="MduTheme.Yellow">
+        <item name="colorPrimary">@color/mdu_yellow_500</item>
+        <item name="colorPrimaryDark">@color/mdu_yellow_700</item>
+        <item name="colorAccent">@color/mdu_blue_a200</item>
+    </style>
+
+</resources>

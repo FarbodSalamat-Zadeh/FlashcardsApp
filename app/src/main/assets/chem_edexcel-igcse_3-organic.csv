@@ -1,0 +1,11 @@
+id,question,answer,page_ref,is_paper_2
+1,What are <b>hydrocarbons</b>?,Molecules made up of <b>hydrogen</b> and <b>carbon</b> atoms <b>only</b>,45,0
+2,List the first five <b>alkanes</b>,&bull; Methane (CH4) <br>&bull; Ethane (C2H6) <br>&bull; Propane (C3H8) <br>&bull; Butane (C4H10) <br>&bull; Pentane (C5H12),45,0
+3,What is a homologous series?,A <b>group of compounds</b> that can all be represented by the <b>same general formula</b>,45,0
+4,What is the general formula for <b>alkanes</b>?,C<sub>n</sub>H<sub>2n+2</sub>,45,0
+5,What is the formula for <b>complete</b> combustion?,Alkane + oxygen &rarr; carbon dioxide + water <br><br><i>e.g.</i> CH<sub>4</sub> + 2O<sub>2</sub> &rarr; CO<sub>2</sub> + 2H<sub>2</sub>O,46,0
+6,How does <b>complete</b> combustion occur?,"Complete combustion occurs when there's <b>plenty of oxygen</b>. The gas burns with a <b>clean blue flame</b>, releasing <b>lots of energy</b>.",46,0
+7,What is the formula for <b>incomplete</b> combustion?,Alkane + oxygen &rarr; carbon + carbon monoxide + carbon dioxide + water <br><br><i>e.g.</i> 4CH<sub>4</sub> + 6O<sub>2</sub> &rarr; C + 2CO + CO<sub>2</sub> + 8H<sub>2</sub>O,46,0
+8,How does <b>incomplete</b> combustion occur?,"Incomplete combustion occurs when there <b>isn't enough oxygen</b>. The gas would burn with a <b>smoky yellow flame</b>, and <b>less energy</b> is produced than in complete combustion.",46,0
+9,What is a haloalkane?,The product when a <b>halogen</b> reacts with an <b>alkane</b>,46,0
+10,Give an example of a reaction that forms a <b>haloalkane</b>,"Methane + bromine &rarr; bromomethane + hydrogen bromide <br><br>Chlorine or bromine react with an alkane in the prescence of <b>ultraviolet light</b>. In these reactions, a hydrogen atom from the alkane is replaced by chlorine or bromine.",46,0

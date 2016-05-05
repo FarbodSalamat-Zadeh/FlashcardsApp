@@ -1,0 +1,47 @@
+<!--
+  Copyright 2016 Farbod Salamat-Zadeh
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <integer name="columns">1</integer>
+
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_xLarge">24sp</dimen>
+
+    <!-- Card dimensions, per Material Design guidelines -->
+    <dimen name="card_text_primary_title">@dimen/text_xLarge</dimen>
+    <dimen name="card_text_primary_title_medium">19sp</dimen>
+    <dimen name="card_text_primary_title_small">@dimen/text_small</dimen>
+    <dimen name="card_text_primary_subtitle">@dimen/text_small</dimen>
+    <dimen name="card_text_supporting">@dimen/text_small</dimen>
+    <dimen name="card_text_supporting_large">@dimen/text_medium</dimen>
+    <dimen name="card_padding_lateral">16dp</dimen>
+    <dimen name="card_padding_vertical">16dp</dimen>
+    <dimen name="card_padding_vertical_large">24dp</dimen>
+    <dimen name="card_padding_actions">8dp</dimen>
+    <dimen name="card_padding_actions_vertical_layout">4dp</dimen>
+
+    <dimen name="flashcard_min_height">156dp</dimen>
+    <dimen name="flashcard_question_size">22.5sp</dimen>
+    <dimen name="flashcard_answer_size">19sp</dimen>
+
+</resources>

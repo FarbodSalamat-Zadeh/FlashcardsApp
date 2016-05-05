@@ -1,0 +1,23 @@
+id,question,answer,page_ref,is_paper_2
+1,What formula can you use to calculate <em>density</em>?,<i>Density</i> = <i>mass</i> &divide; <i>volume</i>,58,0
+2,Density is a measure of...,The '<b>compactness</b>' of something,58,0
+3,A solid will float on a fluid if...,Its <b>density</b> is lower than that of the fluid,58,0
+4,How can <em>pressure</em> be calculated?,<i>Pressure</i> = <i>force</i> &divide; <i>area</i>,58,0
+5,Define <em>pressure</em>,The measure of force being applied to the surface of something,58,0
+6,Density is measured in...,g/cm<sup>3</sup> <i>or</i> kg/m<sup>3</sup>,58,0
+7,Pressure is measured in...,<b>Pascals</b> (Pa) <br><br>1 pascal = 1 N/m<sup>2</sup>,58,0
+8,The same force applied over a wider area causes...,The pressure to decrease,58,0
+9,What formula is used to calculate <em>pressure difference</em>?,<i>Pressure difference</i> = <i>height</i> &times; <i>density</i> &times: g <br><br> <i>(g = acceleration due to gravity)</i>,58,0
+10,Describe the arrangement and forces of attraction between particles in a <b>solid</b>,<b>Strong forces</b> of attraction hold the particles <b>close together</b> in a <b>fixed regular</b> arrangement. <br><br>The particles can only <b>vibrate</b> in their <b>fixed</b> positions because they <b>don't have much energy</b>,59,1
+11,Describe the arrangement and forces of attraction between particles in a <b>liquid</b>,"<b>Weaker forces</b> of attraction mean that the particles are <b>close together</b> but can <b>move past each other</b>, forming <b>irregular arrangements</b>. <br><br>They move in random directions at <b>low speeds</b> because they have more energy than particles in a solid. ",59,1
+12,Describe the arrangement and forces of attraction between particles in a <b>gas</b>,"There are almost <b>no forces</b> of attraction between gas particles, and they are <b>free to move</b>. <br><br>This is because they have <b>more energy</b> than particles in solids and liquids and so gas particles travel at <b>high speeds</b>.",59,1
+13,Define <em>evaporation</em>,Particles escape from a liquid to become gas particles (if they have enough energy),59,1
+14,Particles near the surface of a liquid evaporate if...,&bull; They are travelling in the <b>right direction</b> to escape the liquid <br>&bull; They are travelling <b>fast enough</b> (they have enough kinetic energy) to overcome the <b>attractive force</b> of the other particles in the liquid,59,1
+15,How does a liquid cool after evaporation?,"After the fastest particles (with the most kinetic energy) evaporate from the liquid, the <b>average speed</b> and <b>kinetic energy</b> of the remaining particles <b>decreases</b>, <br><br>This means that the remaining liquid's <b>temperature falls</b> - so the liquid cools. It can be useful when sweat evaporates and cools you down.",59,1
+16,The <b>temperature of a gas</b> (in kelvins) is proportional to...,The <b>average kinetic energy</b> of its particles,60,0
+17,What is <em>Brownian motion</em>?,"The idea that <b>large, heavy particles</b> can be moved with Brownian motion by <b>smaller, lighter</b> particles travelling at high speeds. <br><br>It was noticed by Robert Brown, and is the reason why smoke particles in air appear to move around randomly",60,0
+18,What is <em>absolute zero</em>?,The <b>coldest</b> that anything can get: <b>-273&deg;C</b> or <b>0 K</b> (Kelvins),60,0
+19,Convert 0&deg;C to kelvins,273 K,60,0
+20,Gas particles create pressure when...,"They <b>collide</b> with something (exerting a force on it), e.g. gas particles hitting the walls of a sealed container (outward pressure). <br><br>It can be increased by heating a gas, as the particles will have more kinetic energy, hitting the walls harder and creating more pressure.",61,0
+21,What else remains constant when temperature is constant?,<i>pressure</i> &times; <i>volume</i> = constant <br>or...<br><br> p<sub>1</sub>V<sub>1</sub> = p<sub>2</sub>V<sub>2</sub>,61,0
+22,"When volume is constant, what else remains constant?",<i>pressure</i> &divide; <i>temperature (K)</i> = constant <br>or...<br><br> p<sub>1</sub> / T<sub>1</sub> = p<sub>2</sub> / T<sub>2</sub>,61,1

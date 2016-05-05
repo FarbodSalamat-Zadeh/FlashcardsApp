@@ -1,0 +1,44 @@
+id,question,answer,page_ref,is_paper_2
+1,What are the eight main characteristics of all living organisms?,You can use <b>MRS GREN</b> to help you remember seven of these: <br><br>&bull; <b>M</b>ovement <br>&bull; <b>R</b>espiration <br>&bull; <b>S</b>ensitivity <br>&bull; <b>G</b>rowth <br>&bull; <b>R</b>eproduction <br>&bull; <b>E</b>xcretion <br>&bull; <b>N</b>utrition <br><br>They can also <em>control their internal conditions</em>,1,0
+2,Name three organelles found in both plant and animal cells,&bull; Nucleus <br>&bull; Cell membrane <br>&bull; Cytoplasm,2,0
+3,Give two examples of specialised cells,Some possible choices are:<br>&bull; Red blood cells <br>&bull; White blood cells <br>&bull; Neurons,2,0
+4,What are tissues? Give examples,"Tissues are <b>groups of similar cells</b>, which are organised into organs (tissues can contain more than one cell type though). Examples include the xylem and phloem tissue in plants",2,0
+5,Name the six main groups of organisms,&bull; Plants <br>&bull; Animals <br>&bull; Fungi <br>&bull; Protoctists <br>&bull; Bacteria <br>&bull; Viruses,3,0
+6,What are the cell walls of plants made of?,Cellulose,3,0
+7,How do plants store carbohydrates?,As sucrose or starch,3,0
+8,What is glycogen used for?,Animals and fungi store carbohydrates in the form of glycogen,3,0
+9,What are the cell walls of fungi made of?,Chitin,3,0
+10,The process where fungi feed by secreting extracellular enzymes is known as...,Saprotrophic nutrition,3,0
+11,What is yeast?,A single-celled fungus,3,0
+12,Which organisms (groups) are single-celled?,"Bacteria, protoctists and <em>some</em> fungi",3,0
+13,Do protoctists contain chloroplasts?,"Some do (similar to plant cells), but some other protoctists are more like animal cells",4,0
+14,Give two examples of protoctists,&bull; Chlorella <i>(more similar to plant cells)</i> <br>&bull; Amoeba <i>(more like animal cells)</i>,4,0
+15,Describe the organelles in bacteria,"They have a <b>cytoplasm</b> surrounded by a cell <b>membrane</b> and a cell <b>wall</b>. Inside, they don't have a nucleus, but instead have a <b>circular chromosome of DNA</b>. There are also <b>plasmids</b>, which are like little dots of DNA scattered throughout the cell.",4,0
+16,What bacterium is responsible for turning milk into yoghurt?,Lactobacillus bulgaricus,4,0
+17,What is unique about viruses compared to other living organisms?,They don't have a structure like most other cells. They just have genetic material (DNA or RNA) surrounded by a protein coat.,4,0
+18,Viruses reproduce in living cells so they are dependent on them to survive. This makes viruses a...,Parasite,4,0
+19,Give some examples of viruses,&bull; Influenza virus <br>&bull; HIV,4,0
+20,What is a pathogen?,An organism that causes disease,4,0
+21,Name examples of some pathogens,&bull; <b>HIV</b> is a virus that causes AIDS <br>&bull; The protoctist <b>plasmodium</b> causes malaria <br>&bull; Pneumonia is caused by the bacterium <b>pneumococcus</b>,4,0
+22,What is an enzyme?,A <b>biological catalyst</b> (increases the rate of a reaction without being changed in the reaction itself). Enzymes are essentially <b>proteins</b> (made up of chains of amino acids).,5,0
+23,Define the term <em>catalyst</em>,A substance that speeds up a reaction without being used or changed in the reaction itself,5,0
+24,Describe the 'lock and key' model/theory,"The <b>substrate joins</b> on to the enzyme at the <b>active site</b>. The substrate needs to be the correct shape to fit the enzyme (like a key fitting a lock).<br><br>After the reaction, the product(s) are formed: substrates could have been split apart or joined together, for example. However, the <b>enzyme remains unchanged</b>.",5,0
+25,How do changes in temperature affect the rate of an enzyme-catalysed reaction?,"At <b>low temperatures</b>, the enzyme and substrate particles have little energy, so the reaction takes place <b>slowly</b>.<br><br>Increasing the temperature gives them more energy, so the reaction speeds up.<br><br>If the temperature gets <b>too high</b>, the bonds holding the enzyme together break, so it loses its shape permanently - it becomes <b>denatured</b>. Since the substrate can no longer fit the active site of the denatured enzyme, the <b>reaction stops</b>.",5,0
+26,What is the optimum temperature for most human enzymes?,37 &deg;C,5,0
+27,What are enzymes used for?,Speeding up useful reactions in the body - <b>metabolic reactions</b>,5,0
+28,What is the enzyme <em>pepsin</em> used for?,Breaking down proteins in the stomach,6,1
+29,"Apart from temperature, what other factor could potentially denature enzymes?",pH,6,1
+30,What is the optimum pH of <em>pepsin</em>?,"pH 2 (suited to the acidic conditions in the stomach, where it breaks down proteins)",6,1
+31,The enzyme <em>catalase</em> is used for breaking down...,<b>Hydrogen peroxide</b> (H2O2) into water and oxygen,6,0
+32,How can <b>catalase</b> be used to observe the effect of temperature on enzyme activity?,"&bull; A test tube containing <b>hydrogen peroxide</b> solution (H2O2) and a source of <b>catalase</b> (a potato is a good example) is put in a water bath at a constant temperature <br>&bull; The amount of <b>oxygen produced</b> can be measured, which would show the <em>rate of reaction</em> <br>&bull; Changing the temperature (of the water bath) will affect the rate of reaction and thus the amount of oxygen produced",6,0
+33,How can <em>amylase</em> be used to observe the effect of temperature on enzyme activity?,"<b>Starch</b> is broken down by the enzyme <b>amylase</b> <br><br>A couple of drops of <b>iodine solution</b> can be added to a starch and amylase solution, and the time for the iodine to change from <b>blue-black</b> to <b>brown-orange</b> (i.e. when the starch disappears) is measured <br><br>Changing the temperature of the reaction (e.g. using a water bath) will affect the time taken for the iodine to change color and for the starch to disappear (rate of reaction)",6,0
+34,Define <em>diffusion</em>,The net movement of particles from an area of higher concentration to an area of lower concentration,7,0
+35,In which states of matter does diffusion occur?,Liquids and gases,7,0
+36,Define <em>osmosis</em>,The net movement of water molecules across a partially permeable membrane from a region of higher water concentration to a region of lower water concentration,8,0
+37,A well-watered plant (cell) draws in water becoming plump. The plant is now said to be...,Turgid,8,1
+38,What is the term for describing plant cells with low <em>turgor pressure</em>?,Flaccid,8,1
+39,Give examples of experiments to show diffusion in non-living systems,"Examples include:<br><br>&bull; <b>Bromine gas</b> diffusing in air (bromine gas is brown, so you can see when it diffuses) <br><br>&bull; <b>Agar jelly</b> (made with <em>phenolphthalein</em> and <em>sodium hydroxide</em>) diffusing in acid (phenolphthalein goes from pink to colorless when it gets neutralised)",9,0
+40,What experiment can show osmosis in a living system?,"&bull; A <b>potato is cut</b> into equally-sized cylinders (and their lengths measured) <br>&bull; There should be at least two beakers with <b>different concentrations of sugar solution</b> <br>&bull; The potato pieces are put in the beakers and left for a period of time (e.g. 1 hour) <br>&bull; After the time, pieces of potato that were longer than at the beginning would have drawn in water by <b>osmosis</b>; and shorter pieces would mean water was drawn out (by osmosis)",9,0
+41,Describe an experiment to investigate osmosis in a non-living system,"&bull; Prepare some <b>Visking tubing</b> by tieing a wire to one end and a <b>glass tube</b> to the other <br>&bull; Fill the Visking tubing with <b>sugar solution</b> (using the tube) <br>&bull; Place the tubing in a beaker containing water, and <b>measure the level</b> of the sugar solution on the glass tube <br>&bull; Leave it for a period of time (e.g. 12 hours) and measure where the solution is along the glass tube <br>&bull; The level of liquid along the glass tube <b>should be higher</b> as water would be drawn in by osmosis",9,0
+42,Define <em>active transport</em>,"The movement of particles <em>against a concentration gradient</em> (from an area of lower concentration to an area of higher concentration), <em>using energy</em> released in respiration",10,0
+43,"What three main factors affect the rate of diffusion, osmosis and active transport?","<b>Surface area to Volume ratio</b>: <br>A larger surface area to volume ratio means a higher rate of diffusion, osmosis and active transport <br><br><b>Temperature</b>: <br>Warmer particles have more energy so they can move in and out of cells faster <br><br><b>Concentration gradient</b>: <br>A higher concentration gradient (larger difference in concentration) means a higher rate of diffusion and osmosis. Concentration gradients <em>don't affect active transport</em>",10,0

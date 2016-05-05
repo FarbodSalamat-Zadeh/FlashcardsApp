@@ -1,0 +1,51 @@
+id,question,answer,page_ref,is_paper_2
+1,List the nine types of energy,You can remember these using <b>PHLENCKS</b>... <br><br>&bull; <b>P</b>otential (gravitational and elastic) <br>&bull; <b>H</b>eat (or thermal) <br>&bull; <b>L</b>ight <br>&bull; <b>E</b>lectrical <br>&bull; <b>N</b>uclear <br>&bull; <b>C</b>hemical <br>&bull; <b>K</b>inetic <br>&bull; <b>S</b>ound,44,0
+2,Gravitational potential is found in...,Anything that can fall,44,0
+3,Elastic potential energy can be found in...,"Elastic bands, springs, and similar objects",44,0
+4,Give two examples of where chemical energy can be found,&bull; Foods <br>&bull; Petrol,44,0
+5,Potential energy (gravitational and elastic) and chemical energy are forms of...,Stored energy,44,0
+6,What is the <b>Principle of the Conservation of Energy</b>?,Energy cannot be created or destroyed; it can only be transferred from one energy form to another,44,0
+7,Energy transfers will always result in...,Losses in energy,45,0
+8,How can the efficiency of a device be calculated?,<i>Efficiency</i> = <i>Useful output energy</i> &divide; <i>Total input energy</i>,45,0
+9,What are the three ways that heat energy can be transferred?,"Radiation, conduction, and convection",48,0
+10,"What is a Sankey diagram, and how are they drawn?",#see-guide,47,0
+11,Define <em>radiation</em>,The transfer of heat energy <b>by electromagnetic waves</b>,48,0
+12,Define <em>conduction</em>,<b>Vibrating particles</b> pass on their <b>extra kinetic energy</b> to <b>neighbouring particles</b> <br><br>Conduction occurs mainly <b>in solids</b>,48,0
+13,Define <em>convection</em>,More energetic particles <b>move</b> from the hotter region to the cooler region and <b>take their heat energy with them</b> <br><br>Convection occurs mainly <b>in fluids only</b> (liquids and gases),49,0
+14,Draw and label a diagram showing <b>convection currents</b> in a room with a radiator,#see-guide,49,0
+15,How can heat loss be reduced at home?,&bull; Loft insulation <br>&bull; Hot water tank jacket <br>&bull; Draught proofing <br>&bull; Cavity wall insulation <br>&bull; Thick curtains <br>&bull; Double glazing,50,0
+16,What material is often used (e.g. in loft insulation or a hot water tank jacket) to reduce heat loss?,A thick layer of wool made out of <b>fibreglass</b>,50,0
+17,How can draught proofing reduce heat loss at home?,"The strips of foam and plastic around doors and windows prevent draughts of cold air blowing in, so they reduce heat loss from convection",50,0
+18,What is cavity wall insulation?,Foam is squirted into the gap between the bricks. This stops convection currrents in the gap and radiation across the gap. The air pockets and foam reduce heat loss by conduction.,50,0
+19,Humans can reduce the loss of heat from their bodies by...,"&bull; Having hairs stand on end <br>&bull; Wearing (warm) clothes <br><br>In both of these, warm air is trapped and kept in, keeping us warm",50,0
+20,Work done is...,Energy transferred when a force moves an object,51,0
+21,How is <em>work done</em> calculated?,<i>Work done</i> = <i>force</i> &times; <i>distance</i>,51,0
+22,"State the formula linking <em>power</em>, <em>work done</em> and <em>time taken</em>",<i>P</i> = <i>W</i> &divide; <i>t</i> <br><br><i>Power</i> = <i>Work done</i> &divide; <i>Time taken</i>,51,0
+23,Power is measured in...,Watts (or J/s),51,0
+24,How can kinetic energy be calculated?,<i>Kinetic Energy</i> = <sup>1</sup>&frasl;<sub>2</sub> &times; <i>mass</i> x <i>speed</i><sup>2</sup>,52,0
+25,What is the formula to calculate <em>gravitational potential energy</em>?,"<i>GPE</i> = <i>m g h</i> <br><br><i>(GPE = gravitational potential energy, <br>m = mass <br>g = gravitational field strength <br>h = height)</i>",52,0
+26,What is the approximate gravitational field strength on Earth?,10 m/s<sup>2</sup>,52,0
+27,"When an object falls, <i>Kinetic Energy gained</i> = ...",Gravitational Potential Energy lost,52,0
+28,Name the four non-renewable sources of energy,&bull; Coal <br>&bull; Oil <br>&bull; Natural gas <br>&bull; Nuclear fuels,53,0
+29,What do power stations usually use to drive a turbine?,Steam,53,0
+30,What are some <b>advantages</b> of using <b>fossil fuels</b>?,"&bull; It's reliable (e.g. doesn't rely on the weather like most renewable energy sources) <br>&bull; Burning fossil fuels releases a lot of energy, quite cheaply <br>&bull; There are already a lot of fossil fuel power stations, so there is no need to spend extra money on new technology to use them",53,1
+31,What are some <b>disadvantages</b> of using <b>fossil fuels</b>?,&bull; All fossil fuels <b>release carbon dioxide</b> which contributes to global warming <br>&bull; Burning coal and oil <b>releases sulfur dioxide</b> which can cause acid rain (which would impact wildlife) <br>&bull; <b>They will eventually run out</b>,53,1
+32,How is a nuclear power station different to a fossil fuel power station?,Nuclear power stations use nuclear fission to produce heat whereas fossil fuel power stations burn the fuel,54,0
+33,Show the energy transfers in a nuclear power station with a diagram,Nuclear &rarr; Heat &rarr; Kinetic &rarr; Electrical,54,0
+34,What are some <b>advantages</b> of <b>nuclear power</b>?,&bull; <b>No greenhouse gases</b> are produced <br>&bull; There is still a lot of uranium left in the ground,54,1
+35,What are some <b>disadvantages</b> of <b>nuclear power</b>?,"&bull; <b>Expensive</b> to build and maintain <br>&bull; Processing the uranium before using it causes pollution <br>&bull; <b>Risks of catastrophes</b> like at Chernobyl <br>&bull; Radioactive waste <br>&bull; When the power stations get too old or inefficient, they need to be shut down safely (<b>decomissioned</b>) which is also <b>expensive</b>",54,1
+36,What are some <b>advantages</b> of <b>wind power</b>?,&bull; Quite <b>cheap</b> to run (wind is free) <br>&bull; They <b>don't produce polluting waste</b> <br>&bull; They're <b>renewable</b>,54,1
+37,What are some <b>disadvantages</b> of <b>wind power</b>?,"&bull; They can spoil the view - especially when around <b>1500 are needed to replace one coal power station</b> <br>&bull; They can be <b>noisy</b> <br>&bull; Sometimes, the <b>wind isn't strong enough</b> to generate much power <br>&bull; Initially, they are <b>expensive to set up</b> (especially at sea)",54,1
+38,Describe <em>geothermal energy</b>,"In places where hot rocks lie near to the surface, <b>water is pumped</b> in pipes down to those rocks and forced back up (due to pressure), which drives a generator <br><br><i>(Heat energy &rarr; Kinetic &rarr; Electrical)</i>",54,0
+39,What are some <b>advantages</b> of <b>geothermal energy</b>?,"&bull; It's a free, <b>renewable</b> source of energy with <b>no environmental problems</b>",54,1
+40,What are some <b>disadvantages</b> of <b>geothermal energy</b>?,&bull; <b>Expensive</b> to drill down several kilometers <br>&bull; <b>High costs</b> to build a power plant compared to the amount of energy we can get from it <br>&bull; It is only <b>possible in very few places</b>,54,1
+41,What are some <b>advantages</b> of <b>solar power</b>?,&bull; <b>Renewable</b> energy source <br>&bull; They're a good way to power things that don't use much energy (like calculators),55,1
+42,What are some <b>disadvantages</b> of <b>solar power</b>?,&bull; <b>Expensive</b> initially <br>&bull; They can only generate enough electricity if they have enough sunlight - they are <b>dependent on sunlight</b> <br>&bull; It's often impractical or too expensive to connect them to the National Grid,55,1
+43,What are some <b>advantages</b> of <b>wave power</b>?,&bull; No pollution <br>&bull; Renewable <br>&bull; Minimal running costs,55,1
+44,What are some <b>disadvantages</b> of <b>wave power</b>?,&bull; It can be a <b>hazard to boats</b> <br>&bull; Fairly <b>unreliable</b> <br>&bull; <b>High costs</b> initially,55,1
+45,What are some <b>advantages</b> of <b>tidal barrages</b>?,&bull; No pollution <br>&bull; Renewable <br>&bull; Minimal running costs <br>&bull; Quite reliable,56,1
+46,What are some <b>disadvantages</b> of <b>tidal barrages</b>?,"&bull; They can prevent free access by boats <br>&bull; They can also alter the habitat of wildlife <br>&bull; Like wind turbines, they can spoil the view",56,1
+47,What are some <b>advantages</b> of <b>hydroelectricity</b>?,&bull; No pollution <br>&bull;Renewable <br>&bull; Minimal running costs <br>&bull; There can be an immediate response to increased demand <br>&bull; Quite reliable (except when there are droughts),56,1
+48,What are some <b>disadvantages</b> of <b>hydroelectricity</b>?,&bull; <b>Big impact on the environment</b> (from flooding the valley - rotting vegetation releases methane and carbon dioxide) &bull; Loss of habitat for some species <br>&bull; High initial <b>costs</b> <br>&bull; They can <b>spoil the view</b> (especially when reservoirs dry up),56,1
+49,How does <b>pumped storage</b> give extra supply in hydroelectric dams?,"At night (as the demand during the night is low), surplus electricity is used to pump the water back up the reservoir (to the upper reservoir). This water can be released quickly during periods of peak demand.",56,0
+50,List examples of renewable energy sources,&bull; Wind power <br>&bull;Geothermal energy <br>&bull; Solar power <br>&bull; Wave power <br>&bull; Tidal barrages <br>&bull; Hydroelectric power,54,0
