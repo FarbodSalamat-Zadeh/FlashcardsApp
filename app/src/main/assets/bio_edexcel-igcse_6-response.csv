@@ -1,0 +1,54 @@
+id,question,answer,page_ref,is_paper_2
+1,Any change in the internal or external environment of an organism is called...,A <b>stimulus</b>,43,0
+2,What is the name given to something that detects <b>stimuli</b>?,Receptors,43,0
+3,What are <b>effectors</b>?,"Cells that bring about a <b>response</b> to <b>stimuli</b> <br><br>(e.g. muscle cells, and cells found in glands)",43,0
+4,The nervous system is made up of...,<b>Neurones</b> (nerve cells),43,0
+5,List the <b>three</b> main types of neurones,&bull; Sensory neurones <br>&bull; Relay neurones <br>&bull; Motor neurones,43,0
+6,What does the central nervous system consist of?,The <b>brain</b> and <b>spinal cord</b> only,43,0
+7,Why does the nervous system give <b>rapid responses</b>?,Neurones transmit information using <b>high speed electrical impulses</b>,43,0
+8,How does the central nervous system coordinate responses?,&bull; <b>Receptors</b> in a sense organ detect a <b>stimulus</b> and send <b>electrical impulses</b> along <b>sensory neurones</b> to the <b>CNS</b> (central nervous system) <br>&bull; The CNS sends electrical impulses to an <b>effector</b> along the <b>motor neurone</b> <br>&bull; The effector <b>responds</b> accordingly,43,0
+9,Coordinated responses always need...,"A <b>stimulus</b>, a <b>receptor</b> and an <b>effector</b>",43,0
+10,Give examples of reflexes,"&bull; <b>Pupils</b> automatically get smaller in <b>bright light</b> to prevent it getting damaged <br>&bull; If you get a shock, your body releases <b>adrenaline</b> (a hormone) automatically",44,0
+11,The route taken by the information in a reflex (from receptor to effector) is called...,A <b>reflex arc</b>,44,0
+12,What are the steps in the <b>reflex arc</b>?,"&bull; <b>Stimulus</b> (e.g. cupcake burning finger) <br>&bull; Detected by a <b>receptor</b> <br>&bull; Impulses travel along the <b>sensory neurone</b> <br>&bull; Impulses are passed along a <b>relay neurone</b>, via a <b>synapse</b> (gap between two neurones) <br>&bull; Impulses travel along a <b>motor neurone</b>, via a <b>synapse</b> <br>&bull; Impulses reach the muscle (<b>effector</b>) <br>&bull; Muscle takes action (<b>response</b>)",44,0
+13,Label a diagram of the eye,#see-guide,45,0
+14,What does the <b>conjunctiva</b> do in the eye?,It <b>lubricates</b> and <b>protects</b> the surface of the eye,45,0
+15,What is the function of the <b>cornea</b>?,"It <b>refracts</b> (bends) light into the eye. <br><br>It is <b>transparent</b> and has <b>blood vessels</b> to supply it with oxygen, so oxygen <b>diffuses in</b> from the outer surface.",45,0
+16,"In the eye, what does the <b>iris</b> do?","It controls the <b>diameter</b> of the <b>pupil</b> (the hole in the middle), and therefore <b>how much light</b> enters the eye",45,0
+17,What is the role of the <b>lens</b> in the eye?,It <b>focuses light</b> onto the <b>retina</b> (the light-sensitive part),45,0
+18,Name the two types of light receptors covering the retina,"<b>Rods</b><br>are more sensitive in <b>dim light</b> but <b>can't</b> sense colour. <br><br><b>Cones</b><br>are sensitive to <b>colours</b> but aren't good in dim light. Cones are found all over the retina, but there are a lot of them at the <b>fovea</b>.",45,0
+19,What does the <b>optic nerve</b> do?,It carries <b>impulses</b> from the receptors to the <b>brain</b>,45,0
+20,How does the <b>iris</b> adjust for changes in brightness?,"Very <b>bright</b> light makes the pupils <b>constricted</b> (smaller), because the <b>circular muscle contracts</b>) <br><br>In dim light, the <b>radial muscles contract</b> making pupils <b>dilated</b> (bigger)",45,1
+21,How does the shape of the lens change when looking at <b>distant</b> objects?,The <b>ciliary muscles relax</b> so the <b>suspensory ligaments</b> can <b>pull tight</b>. This makes the lens go <b>thin</b> (less curved),45,1
+22,The lens changes shape when focusing on <b>near</b> objects. How?,The <b>ciliary muscles contract</b> which <b>slackens</b> the <b>suspensory ligaments</b>. The lens becomes <b>fat</b> (more curved),45,1
+23,Long-sighted people are unable to focus on...,<b>Near</b> objects <br><br>because the <b>cornea</b> or <b>lens</b> doesn't <b>bend</b> the light enough (or if the eyeball is too short). This means the images are brought into focus <b>behind</b> the retina.,45,1
+24,Short-sighted people are unable to focus on...,<b>Distant</b> objects <br><br>because the <b>cornea</b> or <b>lens</b> bends the light <b>too much</b> (or if the eyeball is too long). The images of distant objects are brought into focus <b>in front</b> of the retina.,45,1
+25,What are hormones?,"<b>Chemicals</b> released directly into the blood. They're carried in the <b>blood plasma</b> to other parts of the body, but only affect <b>target cells</b>.",46,0
+26,List six examples of hormones,&bull; ADH (anti-diuretic hormone) <br>&bull; Adrenaline <br>&bull; Insulin <br>&bull; Testosterone <br>&bull; Progesterone <br>&bull; Oestrogen,46,0
+27,Where is <b>ADH</b> released?,<b>Pituitary gland</b> (in the brain),46,0
+28,"What does <b>ADH</b> do, and how?",It controls <b>water content</b> by increasing the <b>permeability</b> of the <b>kidney tubules</b> to water,46,0
+29,Which hormone do the <b>adrenal glands</b> release?,Adrenaline,46,0
+30,What does <b>adrenaline</b> do and how?,"Readies the body for a <b>'fight or flight'</b> reponse by increasing <b>heart rate</b>, <b>blood flow</b> to muscles, and <b>blood sugar level</b>.",46,0
+31,Which hormone controls blood sugar levels and how?,<b>Insulin</b> does this by stimulating the <b>liver</b> to turn <b>glucose</b> into <b>glycogen</b> for storage,46,0
+32,Which part of the body releases <b>insulin</b>?,Pancreas,46,0
+33,Which two hormones are released from the <b>ovaries</b>?,<b>Progesterone</b> and <b>oestrogen</b>,46,0
+34,Which hormone is the <b>main female sex hormone</b> and what does it do?,<b>Oestrogen</b> is the main female sex hormone. <br><br>It controls the <b>menstrual cycle</b> and promotes female secondary <b>sexual characteristics</b> (e.g. widening of the hips),46,0
+35,How does <b>progesterone</b> function in the female body?,It supports <b>pregnancy</b> by maintaining the <b>lining</b> of the <b>uterus</b>,46,0
+36,The <b>testes</b> release a hormone called...,Testosterone,46,0
+37,What does <b>testosterone</b> do?,It is the main <b>male sex hormone</b> and it promotes male secondary <b>sexual characteristics</b> (e.g. facial hair),46,0
+38,What are the differences between <b>nervous</b> communication and <b>hormonal</b> communication?,"<b>Nerves</b> deliver <b>fast</b> messages, acting for a <b>short time</b> on a <b>specific area</b> <br><br><b>Hormones</b> are <b>slower</b> but act for a <b>long time</b> in a more <b>general</b> way",46,0
+39,Define <b>homeostatis</b>,The <b>maintenance</b> of a <b>constant internal environment</b>,47,0
+40,What does homeostatis control in the body?,&bull; Water content <br>&bull; Body temperature,47,0
+41,What is the optimum body temperature?,About <b>37 &deg;C</b>,47,0
+42,How can the <b>skin</b> maintain body temperature in hot conditions?,"&bull; <b>Sweat</b> is produced which <b>evaporates</b>, cooling you down <br>&bull; <b>Vasodilation</b> allows more blood to flow near the surface of the skin, to radiate heat into the surroundings <br>&bull; Hairs lie flat",48,1
+43,"In cold conditions, how does the <b>skin</b> maintain body temperature?","&bull; Less heat is lost from the blood in <b>vasoconstriction</b> <br>&bull; <b>Shivering</b> generates heat in the muslces <br>&bull; <b>Hairs</b> stand on end to trap an insulating layer of air, keeping you warm",48,1
+44,What is <b>vasodilation</b> and <b>vasoconstriction</b>?,<b>Blood vessels</b> close to the surface of the skin either <b>widen</b> (vasodilation) or they get <b>smaller</b> (vasoconstrict). This controls the amount of heat from the blood that can be lost to surroundings.,48,1
+45,Smaller organisms can cool down quicker because...,They have <b>bigger surface area to volume ratios</b>,48,0
+46,How do plants respond to stimuli?,"&bull; Sensing the direction of <b>light</b>, growing towards it for </b>more light absorption</b> (for photosynthesis) <br>&bull; Their <b>roots</b> grow downwards, as they can sense <b>gravity</b> <br>&bull; <b>Climbing</b> plants have a sense of <b>touch</b>, so they can find things to climb and reach the sunlight",49,0
+47,Give an example of a plant that responds to the presence of <b>predators</b>,<b>White clovers</b> produce substances <b>toxic</b> to <b>cattle</b> to avoid being eaten,49,0
+48,Give an example of a plant that responds to <b>abiotic stress</b>,<b>Carrots</b> produce <b>antifreeze proteins</b> which stops ice crystals from growing in very cold weather <br><br><i>(Abiotic stress is anything harmful that's natural but non-living - e.g. very cold weather)</i>,49,0
+49,What are <b>auxins</b>?,<b>Plant hormones</b> controlling <b>growth</b> at the <b>tips</b> of <b>shoots</b> and <b>roots</b>. <br><br>Auxins are produced in the tips and <b>diffuse backwards</b> to stimulate <b>cell elongation</b> which occurs in the cells just behind the tips,49,0
+50,Define <b>phototropism</b> and <b>geotropism</b>,<b>Phototropism</b> means it (e.g. shoots) grows towards/away from <b>light</b> <br><br><b>Geotropic</b> means it grows towards/away from <b>gravity</b>,49,0
+51,How are shoots <b>positively phototropic</b>?,"When a <b>shoot tip</b> is exposed to <b>light</b>, it accumulates <b>more auxin</b> on the side that's in the <b>shade</b>, so the shoot bends <b>towards</b> the light.",49,0
+52,Explain how shoots are <b>negatively geotropic</b>?,"When a <b>shoot</b> grows sideways, <b>gravity</b> results in more auxin on the <b>lower side</b> of the shoot. This causes the shoot to bend <b>upwards</b>.",49,0
+53,Describe what makes roots <b>positively geotropic</b>,"A <b>root</b> growing sideways will have more auxin on the <b>lower side</b>, and it therefore grows <b>downwards</b>",49,0
