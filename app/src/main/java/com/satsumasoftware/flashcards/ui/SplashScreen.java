@@ -17,8 +17,8 @@
 package com.satsumasoftware.flashcards.ui;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.satsumasoftware.flashcards.R;
 import com.satsumasoftware.flashcards.util.PrefUtils;

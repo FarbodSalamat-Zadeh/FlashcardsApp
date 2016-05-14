@@ -21,7 +21,6 @@ import android.content.res.Resources;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.ColorRes;
-
 import android.support.annotation.IntDef;
 import android.util.Log;
 
