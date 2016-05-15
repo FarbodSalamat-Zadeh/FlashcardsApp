@@ -1,5 +1,7 @@
 # Flashcards App [Beta]
 
+[![Build Status](https://travis-ci.org/FarbodSalamat-Zadeh/FlashcardsApp.svg?branch=master)](https://travis-ci.org/FarbodSalamat-Zadeh/FlashcardsApp)
+
 A simple, functional flashcards app that follows exam board specifications.
 
 ## Description
