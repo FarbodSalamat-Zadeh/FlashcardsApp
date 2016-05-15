@@ -56,3 +56,25 @@ id,question,answer,page_ref,is_paper_2
 55,"In later stages of pregnancy, the embryo is called a...",Fetus,58,0
 56,What is the <b>placenta</b>?,"It lets the blood of the embryo and the mother get very close to allow the exchange of <b>food</b>, <b>oxygen</b> and <b>waste</b>.",58,1
 57,What is the role of the <b>amniotic fluid</b>?,The <b>amnion membrane forms</b> which surrounds the embryo and is full of <b>amniotic fluid</b>. Amniotic fluid <b>protects</b> the embryo against knocks and bumps.,58,1
+58,What is the meaning of the term <b>allele</b>?,<b>Alleles</b> are <b>different versions</b> of the same gene,59,0
+59,Describe the difference between <b>dominant</b> and <b>recessive</b> alleles,"The <b>dominant</b> allele causes the characteristic that appears, and the other one is <b>recessive</b>. <br><br>Characteristics caused by recessive alleles only appear if <b>both alleles</b> are recessive.",59,0
+60,How are alleles represented (in terms of letters)?,"<b>Dominant alleles</b> are always shown with a <b>capital letter</b> (e.g. 'C'), and <b>recessive alleles</b> with a <b>small letter</b> (e.g. 'c').",59,0
+61,What is the meaning of the term <b>homozygous</b>?,There are <b>two alleles the same</b> for that particular gene (e.g. 'CC' or 'cc'),59,0
+62,What does <b>heterozygous</b> mean?,There are <b>two different alleles</b> for that particular gene (e.g. 'Cc'),59,0
+63,What is the difference between <b>genotype</b> and <b>phenotype</b>?,Your <b>genotype</b> is the <b>alleles</b> that you have. <br><br>Your <b>phenotype</b> is the <b>characteristics</b> the alleles produce.,59,0
+64,"If neither allele is recessive, they are said to be...","<b>Codominant alleles</b>. <br><br>This means that characteristics from <b>both alleles</b> are shown (e.g. not blood group A or B, but blood group AB).",59,1
+65,How would you draw a genetic diagram?,#see-guide,59,0
+66,What is a <b>Punnett square</b>?,A genetic diagram in a grid format,60,0
+67,How would you draw a Punnett square?,#see-guide,60,0
+68,What are <b>family pedigrees</b>?,A family tree showing genetic disorders,61,0
+69,Which pair of chromosomes in the body is responsible for determining gender?,The <b>23rd pair</b> (the final pair),61,0
+70,How does the 23rd pair of chromosomes differ for males and females?,<b>All men</b> have an X and a Y chromosome: <b>XY</b>. The <b>Y chromosome</b> cause <b>male characteristics</b>. <br><br><b>All women</b> have two X chromosomes: <b>XX</b>. The <b>XX combination</b> causes <b>female characteristics</b>. ,61,0
+71,Draw a genetic diagram to show there's an <b>equal chance</b> of having a boy or a girl,#see-guide,61,0
+72,Genetic variation is caused by...,Genes,62,0
+73,Most variation in <b>animals</b> is due to...,Genes <b>and</b> the environment,62,0
+74,What is the theory of evolution?,Life began as simple organisms from which more complex organisms evolved,63,0
+75,Describe the process of <b>natural selection</b> ('survival of the fittest'),"&bull; Individuals need to <b>compete</b> for resources they need to <b>survive</b>. Only some will survive. <br>&bull; Some <b>varieties</b> of a particular species will have a <b>better chance</b> of survival. Those varieties will then have an increased chance of <b>breeding</b> and passing on their <b>genes</b>. <br>&bull; This means a <b>greater</b> proportion of individuals in the next generation will have the better <b>alleles</b>, and so the <b>characteristics</b> that help <b>survival</b>. <br>&bull; Over many generations, the species becomes better and better able to <b>survive</b>. The 'best' features are <b>naturally selected</b> and so the species becomes more and more <b>adapted</b> to its environment.",63,0
+76,What is a mutation?,"A <b>change</b> to the <b>genetic code</b> <br><br>(they change the <b>sequence of DNA bases</b>), which may lead to <b>new characteristics, increasing variation</b>)",64,0
+77,"Mutations can happen <b>spontaneously</b>, but the chances of mutation are increased by...","&bull; <b>Ionising radiation</b> (e.g. X-rays, gamma rays, UV light) <br>&bull; <b>Mutagens</b> (chemicals)",64,1
+78,Can mutations be useful?,"Yes, <b>very occasionally</b>. It would give an organism a <b>survival advantage</b> so it could live in conditions where the others die (<b>natural selection</b>)",64,0
+79,How can bacteria become antibiotic-resistant over time?,"&bull; Like all organisms, they can develop <b>random mutations</b> in their DNA, changing their characteristics. Sometimes this means a bacterium is <b>less affected</b> by a particular <b>antibiotic</b> <br>&bull; This means the bacterium can survive longer and <b>reproduce</b> more <br>&bull; This leads to the <b>gene</b> for resistance being <b>passed on</b> to lots of offspring and becoming <b>more common</b> over time <br>&bull; This can be an issue for people who get infected; <b>superbugs</b> that are resistant to most antibiotics (like MRSA) are becoming more common.",64,0
