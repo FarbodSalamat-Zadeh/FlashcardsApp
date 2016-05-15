@@ -24,8 +24,8 @@ android {
         applicationId "com.satsuware.flashcards"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 27
-        versionName "0.2.7"
+        versionCode 28
+        versionName "0.2.8"
     }
     buildTypes {
         release {
