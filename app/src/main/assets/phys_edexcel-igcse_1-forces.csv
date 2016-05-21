@@ -23,11 +23,32 @@ id,question,answer,page_ref,is_paper_2
 22,"Explain why the hammer and feather, dropped simultaneously, hit the ground at the same time on the Moon?","The <b>accelerating force</b> acting on <b>all falling objects</b> is <b>gravity</b> and it would make them all accelerate at the <b>same rate</b> if it wasn't for <b>air resistance</b>. <br><br>On the Moon, where there's <b>no air</b> the hammer and feather <b>hit the ground together</b>, whereas on Earth, the <b>air resistance</b> causes things to fall at <b>different speeds</b> (terminal velocity depends on an object's drag vs weight).",6,0
 23,"With reference to terminal velocity, describe why parachutes are important for skydivers","If the skydiver has no parachute, he has a <b>small area</b> and force equal to his <b>weight</b> pulling him down. But when the parachute is <b>open</b> there's more <b>air resistance</b> and the same force pulling him down. <br><br>His <b>terminal velocity</b> decreases significantly, so he can land safely.",6,0
 24,State the <b>first</b> law of motion,"<b>Balanced forces mean no change in velocity</b> <br><br><i>If the forces on an object are <b>balanced</b>, it will carry on moving at the <b>same velocity</b> (this includes staying still).</i>",7,0
-25,Objects need a constant overall force to keep moving - true or false?,<b>FALSE</b> <br><br>To keep going at a <b>steady speed</b> there needs to be <b>zero resultant force</b> (forces would be balanced).,7,
-26,State Newton's <b>second</b> law of motion,"If there is an <b>unbalanced force</b>, the object will <b>accelerate</b> in that direction <br><br><i>(Note: you get a <b>steady</b> speed from <b>balanced</b> forces but <b>acceleration</b> from an <b>overall</b> force)</i>",7,
-27,State the formula for the <b>second</b> law of motion,"F = ma <br><br><i>(F = resultant force, m = mass, a = acceleration)</i>",7,
+25,Objects need a constant overall force to keep moving - true or false?,<b>FALSE</b> <br><br>To keep going at a <b>steady speed</b> there needs to be <b>zero resultant force</b> (forces would be balanced).,7,0
+26,State Newton's <b>second</b> law of motion,"If there is an <b>unbalanced force</b>, the object will <b>accelerate</b> in that direction <br><br><i>(Note: you get a <b>steady</b> speed from <b>balanced</b> forces but <b>acceleration</b> from an <b>overall</b> force)</i>",7,0
+27,State the formula for the <b>second</b> law of motion,"F = ma <br><br><i>(F = resultant force, m = mass, a = acceleration)</i>",7,0
 28,What is Newton's <b>third</b> law of motion?,"If object A <b>exerts a force</b> on object B, then object B exerts <b>the exact opposite force</b> on object A",8,1
 29,What's the difference between a <b>vector</b> and <b>scalar</b> quantity?,<b>Vector quantities</b> have a <b>size</b> and <b>direction</b> <br><br><b>Scalar quantities</b> only have a <b>size</b> (no direction),9,1
 30,Give examples of <b>vector quantities</b>,&bull; Force <br>&bull; Velocity <br>&bull; Displacemet <br>&bull; Acceleration <br>&bull; Momentum,9,1
 31,List some <b>scalar quantities</b>,&bull; Mass <br>&bull; Temperature <br>&bull; Time <br>&bull; Length,9,1
-32,TODO STOPPING DISTANCES,.,10,0
+32,Stopping distance is affected by... (two main categories),<b>Thinking distance</b> and <b>braking distance</b>,10,0
+33,<b>Thinking</b> distance is affected by <b>two</b> main factors - what are these?,"&bull; How <b>fast</b> you're going <br>&bull; How <b>'dopey'</b> you are (e.g. tiredness, drugs, alcohol, old age, inexperience)",10,0
+34,List the <b>four</b> main factors that affect <b>braking distance</b>,"&bull; How <b>fast</b> you're going <br>&bull; The <b>mass</b> of the vehicle <br>&bull; How good your <b>brakes</b> are <br>&bull; How good the <b>grip</b> is (which depends on <b>road surface, weather</b> conditions, <b>tyres</b>)",10,0
+35,How can you calculate <b>momentum</b>?,Momentum = Mass &times; Velocity <br><br>p = mv,11,1
+36,What are the units for momentum?,kg m/s,11,1
+37,Describe the <b>conservation of momentum</b>,Momentum <b>before</b> = Momentum <b>after</b> <br><br>Momentum is <b>conserved</b> when no external forces act. The total momentum <b>after</b> is the <b>same</b> as it was <b>before</b>.,11,1
+38,What causes changes in momentum?,When a <b>force</b> acts on an object,11,1
+39,"State the formula linking force, change in momentum, and time",Force acting = Change in momentum &divide; Time taken,11,1
+40,How can you calculate <b>moment</b>?,Moment = Force &times; Perpendicular distance between line of action and pivot,12,0
+41,What is a <b>moment</b>?,"The <b>force</b> on a spanner causes a <b>turning effect</b> (or <b>moment</b>). <br><br>Using a longer spanner, the same force can exert a <b>larger</b> moment because the <b>distance</b> from the pivot is greater.",12,0
+42,"To get the <b>maximum</b> moment, you need to push at...","<b>Right angles</b> (perpendicular) <br><br>So, pushing at <b>any other angle</b> means a <b>smaller</b> moment.",12,0
+43,Draw a diagram to show how you can find the centre of gravity of an object,#see-guide,12,0
+44,What is the <b>principle of moments</b>?,If an object is balanced then: <br><br>Total <b>Anticlockwise</b> Moments = Total <b>Clockwise</b> Moments,13,1
+45,There will be a <b>resultant moment</b> if the total <b>anticlockwise</b> moments <b>do not equal</b> the <b>total clockwise</b> moments. <br><br>(So the object will turn),,13,1
+46,What is <b>Hooke's Law</b>?,"The <b>extension</b> of a stretched wire is <b>proportional</b> to the <b>load</b>, or <b>force</b>.",14,0
+47,Describe an experiment to investigate Hooke's Law. You can use a diagram to help you.,#see-guide,14,0
+48,"Does Hooke's law stop working? If so, when?",Hooke's law stops working when the force becomes <b>great enough</b>. This is known as the <b>elastic limit</b> of the material. <br><br><b>Increasing</b> the force <b>past</b> the elastic limit causes the material to be <b>permanently stretched</b>.,14,0
+49,Give an example of a material that only obeys Hooke's law for <b>small extensions</b>,Rubber,14,0
+50,Sketch a graph to show force against extension in a wire,#see-guide,14,0
+51,"Which force causes orbits in planets, satellites, comets, etc.?",Gravity,15,0
+52,What is the name of our galaxy?,The <b>Milky Way</b> galaxy?,15,0
+53,"Why do planets nearer the Sun move <b>faster</b>, generally?",The force of gravity is stronger at a close distance,16,0
