@@ -24,8 +24,8 @@ android {
         applicationId "com.satsuware.flashcards"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 28
-        versionName "0.2.8"
+        versionCode 30
+        versionName "0.3.0"
     }
     buildTypes {
         release {
@@ -44,6 +44,5 @@ dependencies {
     compile 'com.android.support:cardview-v7:23.4.0'
     compile 'com.satsuware.lib:usefulviews:2.3.1'
     compile 'com.farbod.mdutils:mdutils:0.1.1'
-    //compile 'com.satsuware.lib:mdutils:1.0.2'
     compile files('libs/univocity-parsers-2.0.0.jar')
 }
