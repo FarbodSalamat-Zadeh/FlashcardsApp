@@ -2,16 +2,20 @@
 
 [![Build Status](https://travis-ci.org/FarbodSalamat-Zadeh/FlashcardsApp.svg?branch=master)](https://travis-ci.org/FarbodSalamat-Zadeh/FlashcardsApp)
 
-A simple, functional flashcards app that follows exam board specifications.
+A simple, functional flashcards app that follows exam board specifications for GCSE exams in England.
 
 ## Description
 
-This flashcard app is designed to follow the specifications for the courses of particular exam boards. The full list of subjects and courses is below:
+This flashcard app is designed to follow the specifications for the courses of particular exam boards. A list of subjects and courses covered by this app is below:
 
-Edexcel IGCSE:
-- Biology (partially complete)
+Edexcel (IGCSE):
+- Biology
 - Chemistry (partially complete)
 - Physics (partially complete)
+
+AQA:
+- French (coming soon)
+- Spanish (coming soon)
 
 
 ## Copyright
