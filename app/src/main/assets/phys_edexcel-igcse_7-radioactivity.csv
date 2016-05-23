@@ -1,0 +1,40 @@
+id,question,answer,page_ref,is_paper_2
+1,At the centre of every atom is a...,Nucleus,70,0
+2,The nucleus of an atom contains...,<b>Protons</b> and <b>neutrons</b>,70,0
+3,What is the <b>atomic number</b>?,The number of <b>protons</b> in the nucleus of an atom,70,0
+4,What is the <b>mass number</b> of an atom?,The <b>total</b> number of <b>protons and neutrons</b> in the nucleus of an atom,70,0
+5,What is the meaning of the term <b>isotopes</b>?,"Atoms with the <b>same</b> number of <b>protons</b> (same atomic number), but a <b>different</b> number of <b>neutrons</b> (different mass number)",70,0
+6,What happens to unstable atoms over time?,<b>Radioactive decay</b> <br><br>The nucleus of the unstable atom decays <b>spontaneously</b> it its own time (unaffected by physical conditions).,70,0
+7,List the three types of radiation,&bull; Alpha <br>&bull; Beta <br>&bull; Gamma,70,0
+8,Where does background radiation come from?,"&bull; Substances on <b>Earth</b> - food, building materials, rocks, etc <br>&bull; Radiation from <b>space</b> - mostly from the Sun <br>&bull; <b>Living things</b> <br>&bull; Radiation due to <b>human activity</b> (e.g. nuclear explosions/waste)",70,0
+9,What piece of equipment is used to measure (ionising) radiation?,A <b>Geiger-Muller detector</b> <br><br><small>(<b>photographic film</b> works too!)</small>,71,0
+10,Describe an <b>alpha</b> particle,They are <b>helium nuclei</b> <br><br>(made up of <b>2 protons and 2 neutrons</b>),71,0
+11,How ionising and penetrating are <b>alpha</b> particles?,Not very penetrating <br><br>Strongly ionising,71,0
+12,What is a <b>beta</b> particle?,An <b>electron</b> <br><br>It gets emmitted from the nucleus of an atom when a <b>neutron</b> turns into a <b>proton</b> and a <b>neutron</b>.,71,0
+13,Which type of particle is moderately ionising and moderately penetrating?,Beta particles,71,0
+14,What is a <b>gamma</b> particle?,They are <b>short</b> wavelength <b>EM waves</b>,71,0
+15,How ionising and penetrating are <b>gamma</b> waves?,Very penetrating <br><br>Weakly ionising,71,0
+16,What makes gamma rays different from other types of radiation?,&bull; Gamma emission always happens after alpha or beta decay. You <b>never</b> get <b>just gamma</b> rays emitted. <br>&bull; They have <b>no effect</b> on the atomic or mass numbers of the isotope <br>&bull; They have <b>no charge</b> so they're <b>not deflected</b> by electric or magnetic fields,71,0
+17,Alpha particles can be blocked by...,"<b>Paper, skin</b>, or a few centimetres of <b>air</b>",71,0
+18,Beta particles are stopped by...,<b>Thin metal</b> (e.g. a sheet of aluminium),71,0
+19,Gamma rays are blocked by...,<b>Thick lead</b> or <b>very thick concrete</b>,71,0
+20,What was the plum pudding theory?,The idea that atoms were <b>spheres of positive charge</b> with tiny negative electrons <b>stuck in them</b> like plums in a <b>plum pudding</b>. <br><br><small>(This theory was disproved though)</small>,72,0
+21,How can you balance nuclear equations?,#see-guide,72,0
+22,Define <b>half-life</b>,The <b>time taken</b> for <b>half</b> of the <b>radioactive atoms</b> now present to <b>decay</b>,73,0
+23,How can you calculate the half-life of a material given two readings over a long duration of time?,#see-guide,73,0
+24,How can you measure the half-life of an element given a graph?,#see-guide,73,0
+25,What radiation do medical tracers use?,<b>Beta</b> or <b>gamma</b> radiation,74,0
+26,What type of radiation do industrial tracers use?,Gamma radiation,74,0
+27,How does radioactive dating work?,#see-guide,74,0
+28,Why is radiation dangerous for us?,"<b>Beta</b> and <b>gamma</b> radiation can penetrate the skin and soft tissues to reach organs inside the body. <br><br><b>Alpha</b> radiation can't penetrate the skin, but does a lot of damage in a very <b>localised area</b>.",75,0
+29,How are both low and high doses of radiation dangerous to the body?,"<b>Lower</b> doses tend to cause <b>minor damage</b> without killing the cell. This can cause <b>mutations</b> which could lead to them dividing uncontrollably (<b>cancer</b>) <br><br><b>Higher</b> doses can <b>kill cells</b> completely, causing <b>radiation sickness<?b> if a large part of the body is affected at the same time.",75,0
+30,How can radiation be used to treat cancer?,A <b>high</b> dose of gamma rays can be used to 'zap' cells in the <b>tumour</b> while minimising the dose to the rest of the body,75,0
+31,How can low-level radioactive waste be disposed of safely?,<b>Burying</b> it in secure landfill sites,75,0
+32,How is it difficult to dispose of high-level radioactive waste safely?,"It's often sealed in <b>glass blocks</b>, which are then sealed in <b>metal canisters</b>. These could be buried <b>deep</b> underground. <br><br>But the underground site has to be <b>geologically stable</b> (e.g. not suffer from earthquakes) so that radioactive material doesn't <b>leak out</b>, contaminating soil, plants, rivers, or even drinking water.",75,0
+33,How can you protect yourself while working with radioactive materials?,&bull; Never allow <b>skin contact</b> (hold it with <b>tongs</b> at <b>arm's length</b>) <br>&bull;  Keep the source <b>pointed away</b> and <b>avoid looking directly</b> at it <br>&bull; Store the sources in a <b>sealed lead box</b> when they're not being used,75,0
+34,List some <b>extra precautions</b> people who regularly work with radioactivity should take,"&bull; Medical workers using radioactivity should wear <b>lead aprons</b> and stand behind <b>lead screens</b> during procedures <br>&bull; Industrial workers wear <b>full protective suits</b> to prevent tiny radioactive particles being inhaled, lodging on skin or under fingernails, etc. <br>&bull; Workers can use <b>remote-controlled robot arms</b> to carry out tasks in highly radioactive areas",75,0
+35,What is <b>nuclear fission</b>?,"The <b>splitting</b> of an atom, which releases <b>energy</b>",76,0
+36,Describe a nuclear <b>fission chain reaction</b>,"&bull; A <b>slow-moving neutron</b> gets absorbed by a uranium-235 nucleus, which then <b>splits</b> <br>&bull; Each time a U-235 nucleus <b>splits up</b>, it spits out a <b>small number of neutrons</b>, which may go on to hit other U-235 nuclei <br>&bull; This continues and repeats in a <b>chain reaction</b> <br>&bul; The <b>two daughter nuclei</b> formed from the split are <b>lighter</b> than uranium and also radioactive <br>&bull; Each nucleus <b>splitting</b> gives out a lot of <b>energy</b> (in the form of <b>kinetic energy</b> from the <b>fission products</b>)",76,0
+37,What is the role of the <b>moderator</b> in a nuclear reactor?,It <b>slows neutrons</b> so that they can successfully <b>collide</b> with uranium nuclei and <b>sustain</b> the chain reaction. <br><br>It is usually made of <b>graphite</b> or <b>water</b>.,76,0
+38,What is the role of the <b>control rods</b> in a nuclear reactor?,They limit the rate of fission by <b>absorbing</b> excess neutrons. <br><br>They are often made of <b>boron</b>.,76,0
+39,Which gas is typically pumped through the reactor to carry away generated heat?,Carbon dioxide,76,0
