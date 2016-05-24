@@ -1,0 +1,49 @@
+id,question,answer,page_ref,is_paper_2
+1,How can you ensure plugs are wired correctly?,"&bull; The <b>right coloured wire</b> is connected to each pin, and <b>firmly screwed</b> in. <br>&bull; <b>No bare wire</b> are showing inside a plug. <br>&bull; The <b>cable grip</b> is tightly fastened over the cable <b>outer layer</b>.",18,0
+2,What are the parts of a plug made of and why?,"&bull; The <b>metal parts</b> are made of copper and brass because these are <b>very good conductors</b>. <br>&bull; The case, cable grip and insulation are made of <b>rubber</b> or <b>plastic</b> because they're really good <b>insulators</b>, and <b>flexible</b> too.",18,0
+3,List the three wires in a plug,&bull; Live wire <br>&bull; Neutral wire <br>&bull; Earth wire,18,0
+4,What does the <b>live</b> wire do?,Alternates between a <b>high +ve and -ve voltage</b> of about <b>230 V</b>,18,0
+5,What does the <b>neutral</b> wire do?,It is always at <b>0 V</b>. <br><br>Electricity normally flows in through the live wire and out through the neutral wire.,18,0
+6,"In a plug, what does the <b>earth wire</b> do?",This wire and <b>fuse</b> (or circuit breaker) are just for <b>safety</b> and <b>work together</b>.,18,0
+7,"If the appliance has a <b>plastic casing</b> and no metal parts are showing, it is said to be...",Double insulated,18,0
+8,What precautions should you take when using plugs?,&bull; Check it isn't <b>damaged</b> so that <b>live parts</b> aren't exposed (this prevents an electric shock) <br>&bull; Check the cable isn't <b>frayed</b> <br>&bull; Check the cables aren't <b>too long</b> for the appliance (trip hazard) <br>&bull; Check there's <b>no water</b> near electrical objects (water is a good <b>conductor</b>) <br>&bull; Never push a <b>metal</b> object into a plug <b>socket</b> (unless it's the pins of the plug),18,0
+9,How does earthing and fuses prevent fires and shocks?,"&bull; If a <b>fault</b> develops in which the <b>live</b> somehow touches the <b>metal case</b>, then because the case is <b>earthed</b>, a <b>big current</b> flows in through the <b>live</b>, through the <b>case</b> and out down the <b>earth wire</b>. <br>&bull; This <b>surge</b> in current <b>'blows' (melts) the fuse</b> (or trips the circuit breaker) which <b>cuts off</b> the <b>live supply</b>. <br>&bull; This <b>isolates</b> the <b>whole appliance</b>, making it <b>impossible</b> to get an electric <b>shock</b> from the case. It also prevents the risk of <b>fire</b> caused by the heating effect of a large current.",19,0
+10,"How do circuit breakers work, and what are their advantages over fuses?","&bull; When they detect a <b>surge</b> in <b>current</b> in a circuit, they break the circuit by <b>opening</b> a <b>switch</b>. <br>&bull; Circuit breakers (and the circuit) can be <b>reset</b> by flicking a <b>switch</b> so they are <b>more convenient</b> than fuses (which need to be replaced once they've melted)",19,0
+11,Name one type of circuit breaker,Residual Current Circuit Breaker (<b>RCCB</b>),19,0
+12,Explain how a RCCB works,#see-guide,19,0
+13,Explain how resistors get hot,"&bull; When there is an <b>electric current</b> in a <b>resistor</b> there is an <b>energy transfer</b> which heats the resistor. <br>&bull; This <b>heating effect</b> increases the resistor's <b>resistance</b> so <b>less current</b> will flow, or a <b>greater voltage</b> will be needed to produce the same current. <br>&bull; This heating effect can cause <b>components</b> in the circuit to <b>melt</b> - which means the circuit will <b>stop</b> working, or <b>not work properly</b>. <br>&bull; <b>Fuses</b> use this effect to <b>protect</b> circuits - they <b>melt</b> and <b>break</b> the circuit if the current gets too high.",20,0
+14,How can you use the heating effect of an electric current to heat things?,"The <b>heating effect</b> of an electric current has <b>advantage</b> such as when you want to <b>heat</b> something. <br><br><b>Toasters</b> contain a coil of wire with a really <b>high</b> resistance. When a current passes through the coil, its <b>temperature increases</b> so it <b>glows</b> and gives off <b>infrared</b> (heat) radiation which <b>cooks</b> the bread.",20,0
+15,Define <b>electrical power</b>,The <b>rate</b> at which an appliance transfers <b>energy</b>,20,0
+16,How is electrical power calculated?,Electrical power = current &times; voltage,20,0
+17,What is the formula used for calculating energy transferred?,Energy transferred = current &times; voltage &times; time <br><br><i>(E = I &times; V &times; t)</i>,20,0
+18,Define <b>current</b>,The rate of <b>flow</b> of electrical charge around the circuit. <br><br>Current will <b>only flow</b> through a component if there is a <b>voltage</b> across that component/,21,0
+19,Define <b>voltage</b>,The <b>'driving force'</b> that pushes the current round. <br><br>It can be thought of as an 'electrical pressure'.,21,0
+20,Define <b>resistance</b>,"Anything in the circuit which <b>slows the flow down</b>. <br><br>If you add <b>more components</b> to the circuit (one after the other), there will be a <b>higher overall resistance</b>.",21,0
+21,What happens to current if you increase the <b>voltage</b>?,<b>More current</b> will flow,21,0
+22,What happens to current if you increase the <b>resistance</b>?,<b>Less current</b> will flow,21,0
+23,How do you use an <b>ammeter</b> and what do you use it for?,"It measures the <b>current</b> (in <b>amps</b>) flowing through the component. <br><br>It must be placed <b>in series</b> anywhere in the <b>main circuit</b>, but <b>never</b> in parallel.",21,0
+24,"What is a <b>voltmeter</b> used for, and how do you set it up?",It measures the <b>voltage</b> (in <b>volts</b>) across the <b>component</b>. <br><br>It mus tbe placed <b>in parallel</b> around the <b>component</b> under test (<b>NOT</b> around the variable resistor or battery!),21,0
+25,Draw an electric circuit which can be used for producing <b>V-I</b> graphs?,#see-guide,21,0
+26,"As you vary the <b>variable resistor</b>, it alters the...",<b>Current</b> flowing through the circuit,21,0
+27,UK mains electricity supply is approximately...,230 volts,21,0
+28,What does <b>a.c. supply</b> mean?,<b>Alternating current</b> means the current is <b>constantly</b> changing direction. <br><br>It is used in mains electricity supply.,21,0
+29,What is the meaning of the term <b>d.c.</b>?,<b>Direct current</b> means the current keeps flowing in the <b>same direction</b>. <br><br>Cells and batteries supply d.c.,21,0
+30,"State the formula linking voltage, current and resistance",Voltage = Current &times; Resistance,22,0
+31,What does the voltage-current graph of a metal filament lamp look like?,#see-guide,22,0
+32,Sketch the voltage-current graph of a wire,#see-guide,22,0
+33,Sketch the voltage-current graph of a diode,#see-guide,22,0
+34,What does the voltage-current graphs of different resistors look like?,#see-guide,22,0
+35,List circuit symbols with their symbols,#see-guide,23,0
+36,"LEDs, like lamps, indicate the prescence of...",<b>Current</b> in a circuit,23,0
+37,Describe resistance in a <b>light-dependent resistor</b> (LDR),"In <b>bright light</b>, the resistance <b>falls</b> <br><br>In <b>darkness</b>, the resistance is <b>highest</b>",23,0
+38,Describe resistance in a <b>thermistor</b>,"In <b>hot</b> conditions, the resistance <b>drops</b> <br><br>In <b>cool conditions</b>, the resistance goes <b>up</b>",23,0
+39,How are components connected in <b>series</b> circuits?,"They are connected <b>in a line, end to end</b> between the +ve and -ve of the power supply.",24,0
+40,What are the disadvantages of <b>series</b> circuits?,"&bull; You <b>can't</b> control which components <b>current</b> flows through - it either flows through <b>all</b> the components, or <b>none</b> of them. <br><br>&bull; If you remove or disconnect <b>one</b> component, the circuit is <b>broken</b> and they all <b>stop</b>.",24,0
+41,"How can you find the current at the end of a <b>series</b> circuit, given the current at the beginning?","They will be the same - in series circuits, the <b>same current</b> flows through <b>all parts</b> of the circuit <br><br>i.e. A<sub>1</sub> = A<sub>2</sub>",24,0
+42,"In a series circuit, the <b>size</b> of the <b>current</b> is determined by...",The <b>total voltage</b> of the cell(s) and the <b>total resistance</b> of the circuit <br><br><small>(i.e. <b>I = V/R</b>)</small>,24,0
+43,"In a series circuit, <b>total resistance</b> of the circuit depends on...",The <b>number of components</b> and the <b>type</b> of components used. <br><br>(<small>More <b>components</b> = more <b>resistance</b></small>),24,0
+44,How are components connected in <b>parallel</b> circuits?,Each component is <b>separately</b> connected to the +ve and -ve of the supply,24,0
+45,What are the advantages of <b>parallel</b> circuits?,"&bull; If you remove of disconnect <b>one</b> component, it will <b>hardly affect</b> the others. <br><br>Components can be <b>switched</b> on and off <b>separately</b> (using switches)",24,0
+46,Ammeters are always connected in...,Series,24,0
+47,Voltmeters are always connected in...,Parallel with a component,24,0
+48,Which formula can be used to calculate charge?,Charge = Current &times; Time <br><br>Q = It,25,0
