@@ -16,7 +16,7 @@ id,question,answer,page_ref,is_paper_2
 15,Define <b>electrical power</b>,The <b>rate</b> at which an appliance transfers <b>energy</b>,20,0
 16,How is electrical power calculated?,Electrical power = current &times; voltage,20,0
 17,What is the formula used for calculating energy transferred?,Energy transferred = current &times; voltage &times; time <br><br><i>(E = I &times; V &times; t)</i>,20,0
-18,Define <b>current</b>,The rate of <b>flow</b> of electrical charge around the circuit. <br><br>Current will <b>only flow</b> through a component if there is a <b>voltage</b> across that component/,21,0
+18,Define <b>current</b>,The rate of <b>flow</b> of electrical charge around the circuit. <br><br>Current will <b>only flow</b> through a component if there is a <b>voltage</b> across that component,21,0
 19,Define <b>voltage</b>,The <b>'driving force'</b> that pushes the current round. <br><br>It can be thought of as an 'electrical pressure'.,21,0
 20,Define <b>resistance</b>,"Anything in the circuit which <b>slows the flow down</b>. <br><br>If you add <b>more components</b> to the circuit (one after the other), there will be a <b>higher overall resistance</b>.",21,0
 21,What happens to current if you increase the <b>voltage</b>?,<b>More current</b> will flow,21,0
