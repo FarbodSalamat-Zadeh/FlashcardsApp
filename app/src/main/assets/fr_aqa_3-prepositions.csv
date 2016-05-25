@@ -1,0 +1,33 @@
+id,french_prefix,french,english,type
+1,,à,at,0
+2,,à côté de,next to,0
+3,,à travers,across,0
+4,,au bord de,at the side of,0
+5,,au bout de,at the end of,0
+6,,au-dessous de,below,0
+7,,au-dessus de,above,0
+8,,au fond de,at the bottom of,0
+9,,au lieu de,instead of,0
+10,,au milieu de,in the middle of,0
+11,,autour de,around,0
+12,,avec,with,0
+13,,contre,against,0
+14,,dans,in,0
+15,,de,of,0
+16,,depuis,since,0
+17,,derrière,behind,0
+18,,devant,in front of,0
+19,,en,in; at,0
+20,,en dehors de,outside,0
+21,,en face de,opposite,0
+22,,entre,between,0
+23,,jusqu’à,until,0
+24,,malgré,in spite of,0
+25,,parmi,among,0
+26,,pour,for,0
+27,,près de,near to,0
+28,,sans,without,0
+29,,selon,according to,0
+30,,sous,under,0
+31,,sur,on,0
+32,,vers,towards,0
