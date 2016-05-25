@@ -9,7 +9,7 @@ id,question,answer,page_ref,is_paper_2
 8,How can the efficiency of a device be calculated?,<i>Efficiency</i> = <i>Useful output energy</i> &divide; <i>Total input energy</i>,45,0
 9,What are the three ways that heat energy can be transferred?,"Radiation, conduction, and convection",48,0
 10,"What is a Sankey diagram, and how are they drawn?",#see-guide,47,0
-11,Define <em>radiation</em>,The transfer of heat energy <b>by electromagnetic waves</b>,48,0
+11,Define <em>radiation</em>,The transfer of (heat) energy <b>by electromagnetic waves</b>,48,0
 12,Define <em>conduction</em>,<b>Vibrating particles</b> pass on their <b>extra kinetic energy</b> to <b>neighbouring particles</b> <br><br>Conduction occurs mainly <b>in solids</b>,48,0
 13,Define <em>convection</em>,More energetic particles <b>move</b> from the hotter region to the cooler region and <b>take their heat energy with them</b> <br><br>Convection occurs mainly <b>in fluids only</b> (liquids and gases),49,0
 14,Draw and label a diagram showing <b>convection currents</b> in a room with a radiator,#see-guide,49,0
@@ -28,10 +28,10 @@ id,question,answer,page_ref,is_paper_2
 27,"When an object falls, <i>Kinetic Energy gained</i> = ...",Gravitational Potential Energy lost,52,0
 28,Name the four non-renewable sources of energy,&bull; Coal <br>&bull; Oil <br>&bull; Natural gas <br>&bull; Nuclear fuels,53,0
 29,What do power stations usually use to drive a turbine?,Steam,53,0
-30,What are some <b>advantages</b> of using <b>fossil fuels</b>?,"&bull; It's reliable (e.g. doesn't rely on the weather like most renewable energy sources) <br>&bull; Burning fossil fuels releases a lot of energy, quite cheaply <br>&bull; There are already a lot of fossil fuel power stations, so there is no need to spend extra money on new technology to use them",53,1
+30,What are some <b>advantages</b> of using <b>fossil fuels</b>?,"&bull; It's <b>reliable</b> (e.g. doesn't rely on the weather like most renewable energy sources) <br>&bull; Burning fossil fuels releases a lot of energy, <b>quite cheaply</b> <br>&bull; There are already a lot of fossil fuel power stations, so there is no need to spend extra money on new technology to use them",53,1
 31,What are some <b>disadvantages</b> of using <b>fossil fuels</b>?,&bull; All fossil fuels <b>release carbon dioxide</b> which contributes to global warming <br>&bull; Burning coal and oil <b>releases sulfur dioxide</b> which can cause acid rain (which would impact wildlife) <br>&bull; <b>They will eventually run out</b>,53,1
 32,How is a nuclear power station different to a fossil fuel power station?,Nuclear power stations use nuclear fission to produce heat whereas fossil fuel power stations burn the fuel,54,0
-33,Show the energy transfers in a nuclear power station with a diagram,Nuclear &rarr; Heat &rarr; Kinetic &rarr; Electrical,54,0
+33,What are the energy transfers in a nuclear power station with a diagram,Nuclear &rarr; Heat &rarr; Kinetic &rarr; Electrical,54,0
 34,What are some <b>advantages</b> of <b>nuclear power</b>?,&bull; <b>No greenhouse gases</b> are produced <br>&bull; There is still a lot of uranium left in the ground,54,1
 35,What are some <b>disadvantages</b> of <b>nuclear power</b>?,"&bull; <b>Expensive</b> to build and maintain <br>&bull; Processing the uranium before using it causes pollution <br>&bull; <b>Risks of catastrophes</b> like at Chernobyl <br>&bull; Radioactive waste <br>&bull; When the power stations get too old or inefficient, they need to be shut down safely (<b>decomissioned</b>) which is also <b>expensive</b>",54,1
 36,What are some <b>advantages</b> of <b>wind power</b>?,&bull; Quite <b>cheap</b> to run (wind is free) <br>&bull; They <b>don't produce polluting waste</b> <br>&bull; They're <b>renewable</b>,54,1
