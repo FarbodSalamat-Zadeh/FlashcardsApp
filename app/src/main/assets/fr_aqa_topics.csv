@@ -5,6 +5,8 @@ id,identifier,name,category
 4,4-negatives,Negatives,General
 5,5-numbers,Ordinal numbers and number expressions,General
 6,6-questions,Asking questions,General
-7,7-questions,Common questions,General
+7,7-common-questions,Common questions,General
 8,8-greetings,Greetings and exclamations,General
 9,9-opinions,Opinions,General
+10,10-time,Expressions of time,General
+11,11-time-other,Other time expressions,General
