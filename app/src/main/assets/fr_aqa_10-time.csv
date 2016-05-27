@@ -1,0 +1,33 @@
+id,french_prefix,french,english,type
+1,,lundi,Monday,0
+2,,mardi,Tuesday,0
+3,,mercredi,Wednesday,0
+4,,jeudi,Thursday,0
+5,,vendredi,Friday,0
+6,,samedi,Saturday,0
+7,,dimanche,Sunday,0
+8,,printemps,spring,0
+9,,été,summer,0
+10,,automne,autumn,0
+11,,hiver,winter,0
+12,,janvier,January,0
+13,,février,February,0
+14,,mars,March,0
+15,,avril,April,0
+16,,mai,May,0
+17,,juin,June,0
+18,,juillet,July,0
+19,,août,August,0
+20,,septembre,September,0
+21,,octobre,October,0
+22,,novembre,November,0
+23,,décembre,December,0
+24,,demi,half,0
+25,,environ,about; around,0
+26,l',heure (f),hour,0
+27,,midi,midday,0
+28,,minuit,midnight,0
+29,la,minute,minute,0
+30,,moins,less,0
+31,,quart,quarter,0
+32,la,seconde,second,0
