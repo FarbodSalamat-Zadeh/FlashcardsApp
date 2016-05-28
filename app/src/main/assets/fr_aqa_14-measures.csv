@@ -1,0 +1,39 @@
+id,french_prefix,french,english,type
+1,,assez,quite,0
+2,,bas,low,0
+3,,beaucoup,a lot,0
+4,,boîte,box; tin,0
+5,,bouteille,bottle,0
+6,,centimètre,centimetre,0
+7,,court,short,0
+8,,demi,half,0
+9,,encore de,more of,0
+10,,étroit,narrow; tight,0
+11,,gramme,gram,0
+12,,grand,big; tall,0
+13,,gros,big; fat,0
+14,,haut,high,0
+15,,kilo,kilo,0
+16,,large,wide; loose-fitting,0
+17,,litre,litre,0
+18,,maigre,thin; skinny,0
+19,,mesurer,to measure,0
+20,,mètre,metre,0
+21,,mince,slim,0
+22,,moitié,half,0
+23,,morceau,bit; piece,0
+24,,moyen,medium,0
+25,,nombre,number,0
+26,,paquet,packet,0
+27,,pas mal de,quite a lot of,0
+28,,peser,to weigh,0
+29,,petit,small,0
+30,,peu,a small amount,0
+31,,plein de,a lot of,0
+32,,pointure,size (e.g. shoe size),0
+33,,rien,nothing,0
+34,,suffisamment,sufficient; enough of,0
+35,,taille,height; size (e.g. clothes size),0
+36,,tranche,slice,0
+37,,très,very,0
+38,,trop,too much,0
