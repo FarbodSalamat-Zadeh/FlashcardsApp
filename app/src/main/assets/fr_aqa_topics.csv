@@ -10,3 +10,12 @@ id,identifier,name,category
 9,9-opinions,Opinions,General
 10,10-time,Expressions of time,General
 11,11-time-other,Other time expressions,General
+12,12-location,Location and distance,General
+13,13-colours,Colours,General
+14,14-measures,Weights and measures,General
+15,15-shape,Shape,General
+16,16-weather,Weather,General
+17,17-access,Access,General
+18,18-correctness,Correctness,General
+19,19-materials,Materials,General
+20,20-abbreviations,Common abbreviations,General
