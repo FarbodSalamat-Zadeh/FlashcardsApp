@@ -1,0 +1,15 @@
+id,french_prefix,french,english,type
+1,le,CDI (centre de documentation et d'information),school library; information centre,0
+2,le,CES (collège d’enseignement secondaire),secondary school,0
+3,l',EMT (éducation manuelle et technique) (f),DT (design and technology),0
+4,l',EPS (éducation physique et sportive) (f),PE (physical education),0
+5,l',HLM (habitation à loyer modéré) (f),council housing,0
+6,le,SAMU (service d'aide médicale d'urgence),emergency medical service,0
+7,le,SDF (sans domicile fixe),homeless person,0
+8,la,SNCF (société nationale des chemins de fer français),French national railway company,0
+9,le,TGV (train à grande vitesse),fast train,0
+10,la,TVA (taxe sur la valeur ajoutée),VAT (value added tax),0
+11,le,VTT (vélo tout terrain),mountain bike,0
+,,,,
+,,,,
+,,,,
