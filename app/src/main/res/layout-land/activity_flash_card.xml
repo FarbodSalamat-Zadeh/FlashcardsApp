@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2016 Farbod Salamat-Zadeh
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.satsumasoftware.flashcards.ui.FlashCardActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/AppStyle.Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/button_previous"
+            android:text="@string/flashcards_previous"
+            android:textColor="@color/text_white_secondary"
+            style="@style/AppStyle.Button.Flat"
+            android:background="?colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/button_next"
+            android:layout_toStartOf="@+id/button_next"
+            android:layout_toRightOf="@+id/button_previous"
+            android:layout_toEndOf="@+id/button_previous">
+            <com.satsuware.usefulviews.FlippableView
+                android:id="@+id/flippableView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/mdu_spacing_normal"/>
+        </ScrollView>
+        <Button
+            android:id="@+id/button_next"
+            android:text="@string/flashcards_next"
+            android:textColor="@color/text_white_secondary"
+            style="@style/AppStyle.Button.Flat"
+            android:background="?colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            tools:ignore="RelativeOverlap"/>
+    </RelativeLayout>
+
+    <!-- TODO: make this visible and fit this nicely with other Views -->
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/text_count"
+        android:text="@string/flashcards_count"
+        android:background="@color/mdu_grey_300"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/mdu_spacing_normal"/>
+</LinearLayout>
