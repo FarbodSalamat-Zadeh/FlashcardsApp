@@ -65,15 +65,31 @@ public class Topic implements Parcelable {
         try {
             List<String[]> allRows = parser.parseAll(context.getAssets().open(filename));
             for (String[] line : allRows) {
-                // flashcard csv files in the following format:
-                //      | id | question | answer | page_ref
-                int id = Integer.parseInt(line[0]);
-                flashCards.add(new FlashCard(id, line[1], line[2], Integer.parseInt(line[3]), this));
+                flashCards.add(cardDetailsFromLine(line));
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
         return flashCards;
+    }
+
+    private FlashCard cardDetailsFromLine(String[] line) {
+        int id = Integer.parseInt(line[0]);
+
+        switch (mCourse.getType()) {
+            case FlashCard.STANDARD:
+                // format:  id | question | answer | page_ref
+                return new StandardFlashCard(id, line[1], line[2], Integer.parseInt(line[3]), this);
+
+            case FlashCard.LANGUAGE:
+                // format:  id | french_prefix | french | english | tier
+                return new LanguagesFlashCard(id, line[1], line[2], line[3],
+                        Integer.parseInt(line[4]), this);
+
+            default:
+                throw new IllegalArgumentException("the course type identifier '" +
+                        mCourse.getType() + "' is invalid");
+        }
     }
 
     
