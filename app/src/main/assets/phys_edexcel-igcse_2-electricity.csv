@@ -34,7 +34,7 @@ id,question,answer,page_ref,is_paper_2
 33,Sketch the voltage-current graph of a diode,#see-guide,22,0
 34,What does the voltage-current graphs of different resistors look like?,#see-guide,22,0
 35,List circuit symbols with their symbols,#see-guide,23,0
-36,"LEDs, like lamps, indicate the prescence of...",<b>Current</b> in a circuit,23,0
+36,"LEDs, like lamps, indicate the presence of...",<b>Current</b> in a circuit,23,0
 37,Describe resistance in a <b>light-dependent resistor</b> (LDR),"In <b>bright light</b>, the resistance <b>falls</b> <br><br>In <b>darkness</b>, the resistance is <b>highest</b>",23,0
 38,Describe resistance in a <b>thermistor</b>,"In <b>hot</b> conditions, the resistance <b>drops</b> <br><br>In <b>cool conditions</b>, the resistance goes <b>up</b>",23,0
 39,How are components connected in <b>series</b> circuits?,"They are connected <b>in a line, end to end</b> between the +ve and -ve of the power supply.",24,0

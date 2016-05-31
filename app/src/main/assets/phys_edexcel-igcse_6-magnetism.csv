@@ -11,7 +11,7 @@ id,question,answer,page_ref,is_paper_2
 10,Describe the magnetic field pattern around a <b>straight wire</b>,"There is a magnetic field around a <b>straight</b>, <b>current-carrying</b> wire, made up of <b>concentric circles</b> with the wire in the centre.",64,1
 11,What does the magnetic field around a <b>flat circular coil</b> look like?,The magnetic field in the <b>centre</b> of this wire is similar to that of a <b>bar magnet</b>. <br><br>There are concentric <b>ellipses</b> of magnetic field lines <b>around</b> the coil.,64,1
 12,Define <b>solenoid</b>,A cylindrical <b>coil of wire</b> (which acts as a magnet when an electric current is passed through),64,1
-13,Describe the magnetic field pattern around a <b>solenoid</b>,"The magnetic field is <b>strong</b> and <b>uniform</b>. <br><br><b>Outside</b> the coil, the field is just like the one around a <b>bar magnet</b>, so the <b>ends</b> of the solenoid act like the <b>'north'</b> and <b>'south'</b> of a bar magnet. <br><br>This type of magnet is callled an <b>electromagnet</b>.",64,1
+13,Describe the magnetic field pattern around a <b>solenoid</b>,"The magnetic field is <b>strong</b> and <b>uniform</b>. <br><br><b>Outside</b> the coil, the field is just like the one around a <b>bar magnet</b>, so the <b>ends</b> of the solenoid act like the <b>'north'</b> and <b>'south'</b> of a bar magnet. <br><br>This type of magnet is called an <b>electromagnet</b>.",64,1
 14,Give an example of a <b>soft</b> magnetic material,Iron,64,1
 15,Name a <b>hard</b> magnetic material,Steel,64,1
 16,What does it mean for a magnetic material to be <b>'soft'</b>,It <b>loses</b> its induced magnetism <b>quickly</b>.,64,1

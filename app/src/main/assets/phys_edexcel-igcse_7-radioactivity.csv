@@ -10,7 +10,7 @@ id,question,answer,page_ref,is_paper_2
 9,What piece of equipment is used to measure (ionising) radiation?,A <b>Geiger-Muller detector</b> <br><br><small>(<b>photographic film</b> works too!)</small>,71,0
 10,Describe an <b>alpha</b> particle,They are <b>helium nuclei</b> <br><br>(made up of <b>2 protons and 2 neutrons</b>),71,0
 11,How ionising and penetrating are <b>alpha</b> particles?,Not very penetrating <br><br>Strongly ionising,71,0
-12,What is a <b>beta</b> particle?,An <b>electron</b> <br><br>It gets emmitted from the nucleus of an atom when a <b>neutron</b> turns into a <b>proton</b> and a <b>neutron</b>.,71,0
+12,What is a <b>beta</b> particle?,An <b>electron</b> <br><br>It gets emitted from the nucleus of an atom when a <b>neutron</b> turns into a <b>proton</b> and a <b>neutron</b>.,71,0
 13,Which type of particle is moderately ionising and moderately penetrating?,Beta particles,71,0
 14,What is a <b>gamma</b> particle?,They are <b>short</b> wavelength <b>EM waves</b>,71,0
 15,How ionising and penetrating are <b>gamma</b> waves?,Very penetrating <br><br>Weakly ionising,71,0
