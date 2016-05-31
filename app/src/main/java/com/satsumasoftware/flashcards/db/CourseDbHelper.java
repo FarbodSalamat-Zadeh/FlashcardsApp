@@ -23,6 +23,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import com.satsumasoftware.flashcards.object.Course;
+import com.satsumasoftware.flashcards.object.FlashCard;
 import com.satsumasoftware.flashcards.util.CsvUtils;
 import com.univocity.parsers.csv.CsvParser;
 
@@ -35,19 +36,23 @@ public class CourseDbHelper extends SQLiteOpenHelper {
     /* General Database and Table information */
     private static final String DATABASE_NAME = "course.db";
     public static final String TABLE_NAME = "courses";
-    public static final int DATABASE_VERSION = 2;
+    public static final int DATABASE_VERSION = 3;
 
     /* All Column Names */
     public static final String COL_ID = "id";
     public static final String COL_SUBJECT_IDENTIFIER = "subject_identifier";
     public static final String COL_EXAM_BOARD_IDENTIFIER = "exam_board_identifier";
+    public static final String COL_COURSE_TYPE = "course_type";
+    public static final String COL_REVISION_GUIDE = "revision_guide";
 
     /* SQL CREATE command creates all columns as defined above */
     private static final String SQL_CREATE = "CREATE TABLE " +
             TABLE_NAME + " (" +
             COL_ID + " INTEGER, " +
             COL_SUBJECT_IDENTIFIER + " TEXT, " +
-            COL_EXAM_BOARD_IDENTIFIER + " TEXT" +
+            COL_EXAM_BOARD_IDENTIFIER + " TEXT, " +
+            COL_COURSE_TYPE + " INTEGER, " +
+            COL_REVISION_GUIDE + " TEXT" +
             ")";
 
     /* SQL DROP command deletes the SQL table */
@@ -84,6 +89,8 @@ public class CourseDbHelper extends SQLiteOpenHelper {
                 values.put(COL_ID, Integer.parseInt(line[0]));
                 values.put(COL_SUBJECT_IDENTIFIER, line[1]);
                 values.put(COL_EXAM_BOARD_IDENTIFIER, line[2]);
+                values.put(COL_COURSE_TYPE, Integer.parseInt(line[3]));
+                values.put(COL_REVISION_GUIDE, line[4]);
 
                 db.insert(TABLE_NAME, null, values);
             }
@@ -102,12 +109,27 @@ public class CourseDbHelper extends SQLiteOpenHelper {
         while (!cursor.isAfterLast()) {
             String subject = cursor.getString(cursor.getColumnIndex(COL_SUBJECT_IDENTIFIER));
             String examBoard = cursor.getString(cursor.getColumnIndex(COL_EXAM_BOARD_IDENTIFIER));
-            list.add(new Course(subject, examBoard));
+            String courseType = courseTypeFromInt(cursor.getInt(cursor.getColumnIndex(COL_COURSE_TYPE)));
+            String revisionGuide = cursor.getString(cursor.getColumnIndex(COL_REVISION_GUIDE));
+            list.add(new Course(subject, examBoard, courseType,
+                    (revisionGuide == null || revisionGuide.equals("")) ? null : revisionGuide));
             cursor.moveToNext();
         }
         cursor.close();
 
         return list;
+    }
+
+    private @FlashCard.CourseType String courseTypeFromInt(int x) {
+        switch (x) {
+            case 0:
+                return FlashCard.STANDARD;
+            case 1:
+                return FlashCard.LANGUAGE;
+            default:
+                throw new IllegalArgumentException("the course type identifier '" + x +
+                        "' is invalid");
+        }
     }
 
 }

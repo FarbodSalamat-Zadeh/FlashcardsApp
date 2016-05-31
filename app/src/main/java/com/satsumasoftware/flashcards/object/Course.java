@@ -33,10 +33,15 @@ import java.util.List;
 public class Course implements Parcelable {
 
     private String mSubjectIdentifier, mBoardIdentifier;
+    private String mCourseType;
+    private String mRevisionGuide;
 
-    public Course(String subject, String examBoard) {
+    public Course(String subject, String examBoard, @FlashCard.CourseType String courseType,
+                  String revisionGuide) {
         mSubjectIdentifier = subject;
         mBoardIdentifier = examBoard;
+        mCourseType = courseType;
+        mRevisionGuide = revisionGuide;
     }
 
 
@@ -46,6 +51,14 @@ public class Course implements Parcelable {
 
     public String getExamBoardIdentifier() {
         return mBoardIdentifier;
+    }
+
+    public @FlashCard.CourseType String getType() {
+        return mCourseType;
+    }
+
+    public String getRevisionGuideName() {
+        return mRevisionGuide;
     }
 
     public Subject getSubject(Context context) {
@@ -103,6 +116,8 @@ public class Course implements Parcelable {
     protected Course(Parcel in) {
         mSubjectIdentifier = in.readString();
         mBoardIdentifier = in.readString();
+        mCourseType = in.readString();
+        mRevisionGuide = in.readString();
     }
 
     public static final Creator<Course> CREATOR = new Creator<Course>() {
@@ -126,5 +141,7 @@ public class Course implements Parcelable {
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(mSubjectIdentifier);
         dest.writeString(mBoardIdentifier);
+        dest.writeString(mCourseType);
+        dest.writeString(mRevisionGuide);
     }
 }

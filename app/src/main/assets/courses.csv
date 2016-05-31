@@ -1,4 +1,4 @@
-id,subject_identifier,exam_board_identifier
-1,bio,edexcel-igcse
-2,chem,edexcel-igcse
-3,phys,edexcel-igcse
+id,subject_identifier,exam_board_identifier,course_type,revision_guide
+1,bio,edexcel-igcse,0,CGP Edexcel IGCSE Biology
+2,chem,edexcel-igcse,0,CGP Edexcel IGCSE Chemistry
+3,phys,edexcel-igcse,0,CGP Edexcel IGCSE Physics
