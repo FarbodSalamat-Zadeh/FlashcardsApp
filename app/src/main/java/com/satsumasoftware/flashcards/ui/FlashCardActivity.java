@@ -33,6 +33,7 @@ import android.widget.TextView;
 import com.satsumasoftware.flashcards.R;
 import com.satsumasoftware.flashcards.object.Course;
 import com.satsumasoftware.flashcards.object.FlashCard;
+import com.satsumasoftware.flashcards.object.StandardFlashCard;
 import com.satsumasoftware.flashcards.object.Subject;
 import com.satsumasoftware.flashcards.object.Topic;
 import com.satsumasoftware.flashcards.util.PrefUtils;
@@ -172,6 +173,10 @@ public class FlashCardActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_flashcards, menu);
+
+        if (mTopic.getCourse().getRevisionGuideName() == null) {
+            menu.findItem(R.id.reference).setVisible(false);
+        }
         return true;
     }
 
@@ -179,14 +184,13 @@ public class FlashCardActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.reference:
-                FlashCard flashCard = mFlashCards.get(mCardCount-1);
+                StandardFlashCard flashCard = (StandardFlashCard) mFlashCards.get(mCardCount-1);
                 int pageNo = flashCard.getPageReference();
                 Course course = flashCard.getTopic().getCourse();
-                String examBoard = course.getExamBoard(this).getName();
-                String subject = course.getSubject(this).getName();
+                String revisionGuideName = course.getRevisionGuideName();
                 new AlertDialog.Builder(this)
                         .setTitle(R.string.flashcard_guide_ref_title)
-                        .setMessage(Html.fromHtml(getResources().getString(R.string.flashcard_guide_ref, pageNo, examBoard, subject)))
+                        .setMessage(Html.fromHtml(getResources().getString(R.string.flashcard_guide_ref, pageNo, revisionGuideName)))
                         .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
