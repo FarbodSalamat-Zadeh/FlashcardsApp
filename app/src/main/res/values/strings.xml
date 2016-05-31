@@ -39,7 +39,7 @@
     <string name="flashcards_count">%1$d / %2$d</string>
     <string name="flashcards_flip">Flip</string>
 
-    <string name="flashcard_guide_ref" formatted="false"><![CDATA[For more information, see <b>page %d</b> of the revision guide for %s %s]]></string>
+    <string name="flashcard_guide_ref" formatted="false"><![CDATA[For more information, see <b>page %d</b> of the revision guide (\"<em>%s</em>\")]]></string>
     <string name="flashcard_guide_ref_title">Revision guide reference</string>
 
     <string name="coming_soon">Coming soon</string>
