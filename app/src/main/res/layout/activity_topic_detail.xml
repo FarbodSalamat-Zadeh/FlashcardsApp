@@ -100,7 +100,12 @@
                             android:layout_height="wrap_content"
                             android:paddingBottom="@dimen/card_padding_vertical"/>
                         <com.satsuware.usefulviews.LabelledSpinner
-                            android:id="@+id/spinner"
+                            android:id="@+id/spinner_content"
+                            app:labelText="@string/spinner_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                        <com.satsuware.usefulviews.LabelledSpinner
+                            android:id="@+id/spinner_cards"
                             app:labelText="@string/spinner_cards"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"/>

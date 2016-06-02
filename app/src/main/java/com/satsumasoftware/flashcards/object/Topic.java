@@ -78,8 +78,10 @@ public class Topic implements Parcelable {
 
         switch (mCourse.getType()) {
             case FlashCard.STANDARD:
-                // format:  id | question | answer | page_ref
-                return new StandardFlashCard(id, line[1], line[2], Integer.parseInt(line[3]), this);
+                // format:  id | question | answer | page_ref | is_paper_2
+                boolean isPaper2 = Integer.parseInt(line[4]) == 1;
+                return new StandardFlashCard(id, line[1], line[2], Integer.parseInt(line[3]),
+                        isPaper2, this);
 
             case FlashCard.LANGUAGE:
                 // format:  id | french_prefix | french | english | tier
@@ -90,6 +92,47 @@ public class Topic implements Parcelable {
                 throw new IllegalArgumentException("the course type identifier '" +
                         mCourse.getType() + "' is invalid");
         }
+    }
+
+    public static class FlashCardsRetriever {
+
+        public static ArrayList<FlashCard> filterStandardCards(ArrayList<FlashCard> flashCards,
+                                                               @StandardFlashCard.ContentType int contentType) {
+            ArrayList<FlashCard> filteredCards = new ArrayList<>();
+            for (FlashCard flashCard : flashCards) {
+                boolean isPaper2 = ((StandardFlashCard) flashCard).isPaper2();
+                boolean condition;
+                switch (contentType) {
+                    case StandardFlashCard.PAPER_1:
+                        condition = !isPaper2;
+                        break;
+                    case StandardFlashCard.PAPER_2:
+                        condition = isPaper2;
+                        break;
+                    case StandardFlashCard.ALL:
+                        condition = true;
+                        break;
+                    default:
+                        throw new IllegalArgumentException("content type '" + contentType +
+                                "' is invalid");
+                }
+                if (condition) filteredCards.add(flashCard);
+            }
+            return filteredCards;
+        }
+
+        public static ArrayList<FlashCard> filterLanguagesCards(ArrayList<FlashCard> flashCards,
+                                                                @LanguagesFlashCard.Tier int filterTier) {
+            ArrayList<FlashCard> filteredCards = new ArrayList<>();
+            for (FlashCard flashCard : flashCards) {
+                int flashCardTier = ((LanguagesFlashCard) flashCard).getTier();
+                if (flashCardTier == filterTier) {
+                    filteredCards.add(flashCard);
+                }
+            }
+            return filteredCards;
+        }
+
     }
 
     

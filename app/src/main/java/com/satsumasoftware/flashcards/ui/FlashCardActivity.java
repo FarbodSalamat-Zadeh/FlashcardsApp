@@ -41,12 +41,12 @@ import com.satsumasoftware.flashcards.util.ThemeUtils;
 import com.satsuware.usefulviews.FlippableView;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class FlashCardActivity extends AppCompatActivity {
 
     protected static final String EXTRA_TOPIC = "extra_topic";
     protected static final String EXTRA_NUM_CARDS = "extra_number_of_cards";
+    protected static final String EXTRA_CARD_LIST = "extra_card_list";
 
     protected static final String SAVED_CARD_LIST = "saved_card_list";
     protected static final String SAVED_CARD_COUNT = "saved_card_count";
@@ -78,8 +78,7 @@ public class FlashCardActivity extends AppCompatActivity {
         mNumOfCards = getIntent().getExtras().getInt(EXTRA_NUM_CARDS);
 
         if (savedInstanceState == null) {
-            mFlashCards = mTopic.getFlashCards(this);
-            Collections.shuffle(mFlashCards);
+            mFlashCards = getIntent().getExtras().getParcelableArrayList(EXTRA_CARD_LIST);
             mCardCount = 1;
         } else {
             mFlashCards = savedInstanceState.getParcelableArrayList(SAVED_CARD_LIST);

@@ -31,6 +31,7 @@
     <string name="button_play">Flash the cards</string>
     <string name="options">Options</string>
     <string name="spinner_cards">Number of flashcards</string>
+    <string name="spinner_content">Content</string>
 
     <string name="flashcards_next">Next</string>
     <string name="flashcards_previous">Back</string>

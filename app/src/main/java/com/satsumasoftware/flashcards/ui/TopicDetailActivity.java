@@ -16,8 +16,11 @@
 
 package com.satsumasoftware.flashcards.ui;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.ArrayRes;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -29,19 +32,24 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.satsumasoftware.flashcards.R;
+import com.satsumasoftware.flashcards.object.FlashCard;
 import com.satsumasoftware.flashcards.object.Topic;
 import com.satsumasoftware.flashcards.util.ThemeUtils;
 import com.satsuware.usefulviews.LabelledSpinner;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class TopicDetailActivity extends AppCompatActivity {
 
     protected static final String EXTRA_TOPIC = "extra_topic";
     private Topic mTopic;
 
-    private ArrayList<String> mSpinnerItems;
-    private int mSelectedItem;
+    private ArrayList<FlashCard> mFilteredCards;
+    private int mSelectedNumCards;
+
+    private LabelledSpinner mCardNumSpinner;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,22 +82,39 @@ public class TopicDetailActivity extends AppCompatActivity {
         subjectText.setText(mTopic.getCourse().getSubject(this).getName());
         topicText.setText(mTopic.getName());
 
-        final int numOfCards = mTopic.getFlashCards(this).size();
 
-        LabelledSpinner spinner = (LabelledSpinner) findViewById(R.id.spinner);
-        assert spinner != null;
-        mSpinnerItems = new ArrayList<>();
-        for (int i = 5; i < numOfCards-1; i += 5) {
-            mSpinnerItems.add(String.valueOf(i));
-        }
-        mSpinnerItems.add("All flashcards");
+        mCardNumSpinner = (LabelledSpinner) findViewById(R.id.spinner_cards);
+        assert mCardNumSpinner != null;
 
-        spinner.setItemsArray(mSpinnerItems);
-        spinner.setOnItemChosenListener(new LabelledSpinner.OnItemChosenListener() {
+        mFilteredCards = mTopic.getFlashCards(this);
+        updateCardNumSpinner(mFilteredCards);
+
+        LabelledSpinner spinnerContent = (LabelledSpinner) findViewById(R.id.spinner_content);
+        assert spinnerContent != null;
+
+        spinnerContent.setItemsArray(getCardContentOptions());
+        spinnerContent.setOnItemChosenListener(new LabelledSpinner.OnItemChosenListener() {
             @Override
             public void onItemChosen(View labelledSpinner, AdapterView<?> adapterView, View itemView, int position, long id) {
-                mSelectedItem = (position == mSpinnerItems.size()-1) ?
-                        numOfCards : Integer.parseInt(mSpinnerItems.get(position));
+                String courseType = mTopic.getCourse().getType();
+                ArrayList<FlashCard> allFlashCards = mTopic.getFlashCards(TopicDetailActivity.this);
+                switch (courseType) {
+                    case FlashCard.STANDARD:
+                        // 'position' corresponds to the ContentType values from FlashCardsRetriever
+                        mFilteredCards = Topic.FlashCardsRetriever.filterStandardCards(
+                                allFlashCards, position);
+                        break;
+                    case FlashCard.LANGUAGE:
+                        // again, 'position' corresponds to the Tier values in LanguagesFlashCard
+                        mFilteredCards = Topic.FlashCardsRetriever.filterLanguagesCards(
+                                allFlashCards, position);
+                        break;
+                    default:
+                        throw new IllegalArgumentException("the course type identifier '" +
+                                courseType + "' is invalid");
+                }
+                Collections.shuffle(mFilteredCards);
+                updateCardNumSpinner(mFilteredCards);
             }
 
             @Override
@@ -100,7 +125,7 @@ public class TopicDetailActivity extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.button);
         assert button != null;
 
-        if (numOfCards == 0) {
+        if (mTopic.getFlashCards(this).size() == 0) {
             LinearLayout linearLayout = (LinearLayout) findViewById(R.id.viewGroup_options);
             assert linearLayout != null;
             linearLayout.setVisibility(View.GONE);
@@ -112,12 +137,72 @@ public class TopicDetailActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (mFilteredCards.size() == 0) {
+                    new AlertDialog.Builder(TopicDetailActivity.this)
+                            .setTitle("No flashcards here!")
+                            .setMessage("There are no flashcards available for the options you have chosen. " +
+                                    "Change your options and try again.")
+                            .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    // do nothing
+                                }
+                            })
+                            .show();
+                    return;
+                }
+
+                int cardListSize = mFilteredCards.size();
+                if (cardListSize > mSelectedNumCards) {
+                    mFilteredCards.subList(0, mSelectedNumCards).clear();
+                } else if (cardListSize < mSelectedNumCards) {
+                    mSelectedNumCards = cardListSize;
+                }
+
                 Intent intent = new Intent(TopicDetailActivity.this, FlashCardActivity.class);
                 intent.putExtra(FlashCardActivity.EXTRA_TOPIC, mTopic);
-                intent.putExtra(FlashCardActivity.EXTRA_NUM_CARDS, mSelectedItem);
+                intent.putExtra(FlashCardActivity.EXTRA_NUM_CARDS, mSelectedNumCards);
+                intent.putExtra(FlashCardActivity.EXTRA_CARD_LIST, mFilteredCards);
                 startActivity(intent);
             }
         });
+    }
+
+    private void updateCardNumSpinner(ArrayList<FlashCard> flashCards) {
+        final int numOfCards = flashCards.size();
+
+        ArrayList<String> spinnerCardItems = new ArrayList<>();
+        for (int i = 5; i < numOfCards-1; i += 5) {
+            spinnerCardItems.add(String.valueOf(i));
+        }
+        spinnerCardItems.add("All flashcards");
+        final ArrayList<String> finalSpinnerCardItems = spinnerCardItems;
+
+        mCardNumSpinner.setItemsArray(spinnerCardItems);
+        mCardNumSpinner.setOnItemChosenListener(new LabelledSpinner.OnItemChosenListener() {
+            @Override
+            public void onItemChosen(View labelledSpinner, AdapterView<?> adapterView, View itemView,
+                                     int position, long id) {
+                mSelectedNumCards = (position == finalSpinnerCardItems.size()-1) ?
+                        numOfCards : Integer.parseInt(finalSpinnerCardItems.get(position));
+            }
+
+            @Override
+            public void onNothingChosen(View labelledSpinner, AdapterView<?> adapterView) {}
+        });
+    }
+
+    private @ArrayRes int getCardContentOptions() {
+        String courseType = mTopic.getCourse().getType();
+        switch (courseType) {
+            case FlashCard.STANDARD:
+                return R.array.spinner_content_items_std;
+            case FlashCard.LANGUAGE:
+                return R.array.spinner_content_items_lang;
+            default:
+                throw new IllegalArgumentException("the course type identifier '" +
+                        courseType + "' is invalid");
+        }
     }
 
     @Override

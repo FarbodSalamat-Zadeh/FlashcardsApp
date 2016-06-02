@@ -17,21 +17,33 @@
 package com.satsumasoftware.flashcards.object;
 
 import android.os.Parcel;
+import android.support.annotation.IntDef;
 import android.text.Html;
 import android.text.Spanned;
 
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
 public class StandardFlashCard implements FlashCard {
+
+    @IntDef({PAPER_1, PAPER_2, ALL})
+    @Retention(RetentionPolicy.SOURCE)
+    public @interface ContentType {}
+    public static final int PAPER_1 = 0, PAPER_2 = 1, ALL = 2;
 
     private int mId, mPageRef;
     private String mQuestion, mAnswer;
+    private boolean mIsPaper2;
     private Topic mTopic;
 
 
-    public StandardFlashCard(int id, String question, String answer, int pageRef, Topic topic) {
+    public StandardFlashCard(int id, String question, String answer, int pageRef, boolean isPaper2,
+                             Topic topic) {
         mId = id;
         mQuestion = question;
         mAnswer = answer;
         mPageRef = pageRef;
+        mIsPaper2 = isPaper2;
         mTopic = topic;
     }
 
@@ -72,12 +84,17 @@ public class StandardFlashCard implements FlashCard {
         return mPageRef;
     }
 
+    public boolean isPaper2() {
+        return mIsPaper2;
+    }
+
 
     protected StandardFlashCard(Parcel in) {
         mId = in.readInt();
         mPageRef = in.readInt();
         mQuestion = in.readString();
         mAnswer = in.readString();
+        mIsPaper2 = in.readByte() == 1;
         mTopic = in.readParcelable(Topic.class.getClassLoader());
     }
 
@@ -104,6 +121,7 @@ public class StandardFlashCard implements FlashCard {
         dest.writeInt(mPageRef);
         dest.writeString(mQuestion);
         dest.writeString(mAnswer);
+        dest.writeByte((byte) (mIsPaper2 ? 1 : 0));
         dest.writeParcelable(mTopic, flags);
     }
 }
