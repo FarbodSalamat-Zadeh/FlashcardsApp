@@ -14,7 +14,7 @@ Edexcel (IGCSE):
 - Physics (partially complete)
 
 AQA:
-- French (coming soon)
+- French (partially complete)
 - Spanish (coming soon)
 
 
