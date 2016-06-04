@@ -27,7 +27,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.satsumasoftware.flashcards.R;
-import com.satsumasoftware.flashcards.db.CourseDbHelper;
+import com.satsumasoftware.flashcards.db.MainDatabases;
 import com.satsumasoftware.flashcards.object.Course;
 import com.satsumasoftware.flashcards.ui.adapter.CoursesAdapter;
 
@@ -50,8 +50,7 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         mRecyclerView.setLayoutManager(new GridLayoutManager(this, getResources().getInteger(R.integer.columns)));
 
-        CourseDbHelper helper = new CourseDbHelper(MainActivity.this);
-        mCourses = helper.getCourses();
+        mCourses = MainDatabases.getCourses(this);
         CoursesAdapter adapter = new CoursesAdapter(MainActivity.this, mCourses);
         adapter.setOnEntryClickListener(new CoursesAdapter.OnEntryClickListener() {
             @Override

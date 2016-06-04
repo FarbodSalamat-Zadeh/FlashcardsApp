@@ -17,12 +17,10 @@
 package com.satsumasoftware.flashcards.object;
 
 import android.content.Context;
-import android.database.Cursor;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.satsumasoftware.flashcards.db.ExamBoardDbHelper;
-import com.satsumasoftware.flashcards.db.SubjectDbHelper;
+import com.satsumasoftware.flashcards.db.MainDatabases;
 import com.satsumasoftware.flashcards.util.CsvUtils;
 import com.univocity.parsers.csv.CsvParser;
 
@@ -62,36 +60,11 @@ public class Course implements Parcelable {
     }
 
     public Subject getSubject(Context context) {
-        SubjectDbHelper dbHelper = new SubjectDbHelper(context);
-        Cursor cursor = dbHelper.getReadableDatabase().query(
-                SubjectDbHelper.TABLE_NAME,
-                null,
-                SubjectDbHelper.COL_IDENTIFIER + "=?",
-                new String[] {mSubjectIdentifier},
-                null, null, null);
-        cursor.moveToFirst();
-        int id = cursor.getInt(cursor.getColumnIndex(SubjectDbHelper.COL_ID));
-        String name = cursor.getString(cursor.getColumnIndex(SubjectDbHelper.COL_NAME));
-        String colorIdentifier = cursor.getString(cursor.getColumnIndex(SubjectDbHelper.COL_MDU_COLOR_IDENTIFIER));
-        cursor.close();
-
-        return new Subject(id, mSubjectIdentifier, name, colorIdentifier);
+        return MainDatabases.findSubject(context, mSubjectIdentifier);
     }
 
     public ExamBoard getExamBoard(Context context) {
-        ExamBoardDbHelper dbHelper = new ExamBoardDbHelper(context);
-        Cursor cursor = dbHelper.getReadableDatabase().query(
-                ExamBoardDbHelper.TABLE_NAME,
-                null,
-                ExamBoardDbHelper.COL_IDENTIFIER + "=?",
-                new String[] {mBoardIdentifier},
-                null, null, null);
-        cursor.moveToFirst();
-        int id = cursor.getInt(cursor.getColumnIndex(ExamBoardDbHelper.COL_ID));
-        String name = cursor.getString(cursor.getColumnIndex(ExamBoardDbHelper.COL_NAME));
-        cursor.close();
-
-        return new ExamBoard(id, mBoardIdentifier, name);
+        return MainDatabases.findExamBoard(context, mBoardIdentifier);
     }
 
     public ArrayList<Topic> getTopics(Context context) {

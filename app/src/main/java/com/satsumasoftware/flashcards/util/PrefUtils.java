@@ -20,30 +20,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.satsumasoftware.flashcards.db.CourseDbHelper;
-import com.satsumasoftware.flashcards.db.ExamBoardDbHelper;
-import com.satsumasoftware.flashcards.db.SubjectDbHelper;
-
 public final class PrefUtils {
-
-    // Boolean indicating whether the one-time welcome has been done
-    // (there will be a different preferences string value for different versions of the
-    // database as preferences are not reset on app update)
-    public static final String PREF_DATABASE_INITIALISED = "pref_database_initialised_" +
-            CourseDbHelper.DATABASE_VERSION +
-            ExamBoardDbHelper.DATABASE_VERSION +
-            SubjectDbHelper.DATABASE_VERSION;
-
-    public static boolean hasDatabaseInitialised(Context context) {
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-        return sp.getBoolean(PREF_DATABASE_INITIALISED, false);
-    }
-
-    public static void markDatabaseInitialised(Context context) {
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-        sp.edit().putBoolean(PREF_DATABASE_INITIALISED, true).apply();
-    }
-
 
     public static final String PREF_FLASHCARD_DARK_BKGD = "pref_cardActivity_darkBkgd";
 
@@ -51,7 +28,5 @@ public final class PrefUtils {
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
         return sp.getBoolean(PREF_FLASHCARD_DARK_BKGD, true);
     }
-
-
 
 }

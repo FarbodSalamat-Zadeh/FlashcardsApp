@@ -21,11 +21,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.satsumasoftware.flashcards.R;
-import com.satsumasoftware.flashcards.util.PrefUtils;
 
 public class SplashScreen extends AppCompatActivity {
 
-    public static final int SLEEP_TIME = 0; // TODO
+    public static final int SLEEP_TIME = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,12 +38,7 @@ public class SplashScreen extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
-                    Intent intent;
-                    if (!PrefUtils.hasDatabaseInitialised(getBaseContext())) {
-                        intent = new Intent(getBaseContext(), InitializeDbActivity.class);
-                    } else {
-                        intent = new Intent(getBaseContext(), MainActivity.class);
-                    }
+                    Intent intent = new Intent(getBaseContext(), MainActivity.class);
                     startActivity(intent);
                 }
             }
