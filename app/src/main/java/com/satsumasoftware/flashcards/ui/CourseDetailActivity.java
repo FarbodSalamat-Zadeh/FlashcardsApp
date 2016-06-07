@@ -28,7 +28,8 @@ import android.view.View;
 
 import com.satsumasoftware.flashcards.R;
 import com.satsumasoftware.flashcards.framework.Course;
-import com.satsumasoftware.flashcards.framework.Topic;
+import com.satsumasoftware.flashcards.framework.topic.FullContentTopic;
+import com.satsumasoftware.flashcards.framework.topic.Topic;
 import com.satsumasoftware.flashcards.ui.adapter.TopicsAdapter;
 import com.satsumasoftware.flashcards.util.ThemeUtils;
 
@@ -62,7 +63,17 @@ public class CourseDetailActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         assert recyclerView != null;
         recyclerView.setLayoutManager(new GridLayoutManager(this, getResources().getInteger(R.integer.columns)));
-        final ArrayList<Topic> topics = mCourse.getTopics(this);
+        ArrayList<Topic> courseTopics = mCourse.getTopics(this);
+
+        if (courseTopics.size() == 0) {
+            return;
+        }
+
+        if (courseTopics.size() > 1) {
+            FullContentTopic fullContentTopic = new FullContentTopic(mCourse);
+            courseTopics.add(0, fullContentTopic);
+        }
+        final ArrayList<Topic> topics = courseTopics;
 
         TopicsAdapter adapter = new TopicsAdapter(this, topics);
         adapter.setOnEntryClickListener(new TopicsAdapter.OnEntryClickListener() {
