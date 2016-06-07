@@ -14,36 +14,37 @@
  * limitations under the License.
  */
 
-package com.satsumasoftware.flashcards.framework;
+package com.satsumasoftware.flashcards.framework.flashcard;
 
 import android.os.Parcel;
 import android.support.annotation.IntDef;
 import android.text.Html;
 import android.text.Spanned;
 
+import com.satsumasoftware.flashcards.framework.topic.Topic;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-public class StandardFlashCard implements FlashCard {
+public class LanguagesFlashCard implements FlashCard {
 
-    @IntDef({PAPER_1, PAPER_2, ALL})
+    @IntDef({GENERAL_VOCAB, FOUNDATION, HIGHER})
     @Retention(RetentionPolicy.SOURCE)
-    public @interface ContentType {}
-    public static final int PAPER_1 = 0, PAPER_2 = 1, ALL = 2;
+    public @interface Tier {}
+    public static final int GENERAL_VOCAB = 0, FOUNDATION = 1, HIGHER = 2;
 
-    private int mId, mPageRef;
-    private String mQuestion, mAnswer;
-    private boolean mIsPaper2;
+    private int mId, mTier;
+    private String mEnglish, mAnswerPrefix, mAnswer;
     private Topic mTopic;
 
 
-    public StandardFlashCard(int id, String question, String answer, int pageRef, boolean isPaper2,
-                             Topic topic) {
+    public LanguagesFlashCard(int id, String answerPrefix, String answer, String english,
+                              int tier, Topic topic) {
         mId = id;
-        mQuestion = question;
+        mEnglish = english;
+        mAnswerPrefix = answerPrefix;
         mAnswer = answer;
-        mPageRef = pageRef;
-        mIsPaper2 = isPaper2;
+        mTier = tier;
         mTopic = topic;
     }
 
@@ -55,18 +56,20 @@ public class StandardFlashCard implements FlashCard {
 
     @Override
     public Spanned getQuestion() {
-        return Html.fromHtml(mQuestion);
+        return Html.fromHtml(mEnglish);
     }
 
     @Override
     public Spanned getAnswer() {
-        if (mAnswer.equals("#see-guide")) {
-            return Html.fromHtml("This answer is too long to fit on a flashcard, but you can " +
-                    "check <b>page " + mPageRef + "</b> of the revision guide (\"<em>" +
-                    mTopic.getCourse().getRevisionGuideName() + "</em>\") for details.");
+        if (mAnswerPrefix != null) {
+            return Html.fromHtml("<i>" + mAnswerPrefix + "</i>  " + mAnswer);
         } else {
             return Html.fromHtml(mAnswer);
         }
+    }
+
+    public @Tier int getTier() {
+        return mTier;
     }
 
     @Override
@@ -76,37 +79,28 @@ public class StandardFlashCard implements FlashCard {
 
     @Override
     public String getFlashCardType() {
-        return FlashCard.STANDARD;
+        return FlashCard.LANGUAGE;
     }
 
 
-    public int getPageReference() {
-        return mPageRef;
-    }
-
-    public boolean isPaper2() {
-        return mIsPaper2;
-    }
-
-
-    protected StandardFlashCard(Parcel in) {
+    protected LanguagesFlashCard(Parcel in) {
         mId = in.readInt();
-        mPageRef = in.readInt();
-        mQuestion = in.readString();
+        mEnglish = in.readString();
+        mAnswerPrefix = in.readString();
         mAnswer = in.readString();
-        mIsPaper2 = in.readByte() == 1;
+        mTier = in.readInt();
         mTopic = in.readParcelable(Topic.class.getClassLoader());
     }
 
-    public static final Creator<StandardFlashCard> CREATOR = new Creator<StandardFlashCard>() {
+    public static final Creator<LanguagesFlashCard> CREATOR = new Creator<LanguagesFlashCard>() {
         @Override
-        public StandardFlashCard createFromParcel(Parcel in) {
-            return new StandardFlashCard(in);
+        public LanguagesFlashCard createFromParcel(Parcel in) {
+            return new LanguagesFlashCard(in);
         }
 
         @Override
-        public StandardFlashCard[] newArray(int size) {
-            return new StandardFlashCard[size];
+        public LanguagesFlashCard[] newArray(int size) {
+            return new LanguagesFlashCard[size];
         }
     };
 
@@ -118,10 +112,10 @@ public class StandardFlashCard implements FlashCard {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeInt(mId);
-        dest.writeInt(mPageRef);
-        dest.writeString(mQuestion);
+        dest.writeInt(mTier);
+        dest.writeString(mEnglish);
+        dest.writeString(mAnswerPrefix);
         dest.writeString(mAnswer);
-        dest.writeByte((byte) (mIsPaper2 ? 1 : 0));
         dest.writeParcelable(mTopic, flags);
     }
 }

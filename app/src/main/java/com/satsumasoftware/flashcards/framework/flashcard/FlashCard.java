@@ -14,11 +14,13 @@
  * limitations under the License.
  */
 
-package com.satsumasoftware.flashcards.framework;
+package com.satsumasoftware.flashcards.framework.flashcard;
 
 import android.os.Parcelable;
 import android.support.annotation.StringDef;
 import android.text.Spanned;
+
+import com.satsumasoftware.flashcards.framework.topic.Topic;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
