@@ -14,12 +14,16 @@
  * limitations under the License.
  */
 
-package com.satsumasoftware.flashcards.framework;
+package com.satsumasoftware.flashcards.framework.topic;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import com.satsumasoftware.flashcards.framework.Course;
+import com.satsumasoftware.flashcards.framework.flashcard.FlashCard;
+import com.satsumasoftware.flashcards.framework.flashcard.LanguagesFlashCard;
+import com.satsumasoftware.flashcards.framework.flashcard.StandardFlashCard;
 import com.satsumasoftware.flashcards.util.CsvUtils;
 import com.univocity.parsers.csv.CsvParser;
 
@@ -27,36 +31,43 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Topic implements Parcelable {
+public class CourseTopic implements Topic {
 
     private int mId;
     private String mIdentifier, mName;
     private Course mCourse;
 
-    public Topic(int id, String identifier, String name, Course course) {
+
+    public CourseTopic(int id, String identifier, String name, Course course) {
         mId = id;
         mIdentifier = identifier;
         mName = name;
         mCourse = course;
     }
 
+
+    @Override
     public int getId() {
         return mId;
     }
 
+    @Override
     public String getIdentifier() {
         return mIdentifier;
     }
 
+    @Override
     public String getName() {
         return mName;
     }
 
+    @Override
     public Course getCourse() {
         return mCourse;
     }
 
 
+    @Override
     public ArrayList<FlashCard> getFlashCards(Context context) {
         ArrayList<FlashCard> flashCards = new ArrayList<>();
         String filename = mCourse.getSubjectIdentifier() + "_" + mCourse.getExamBoardIdentifier() +
@@ -75,7 +86,6 @@ public class Topic implements Parcelable {
 
     private FlashCard cardDetailsFromLine(String[] line) {
         int id = Integer.parseInt(line[0]);
-
         switch (mCourse.getType()) {
             case FlashCard.STANDARD:
                 // format:  id | question | answer | page_ref | is_paper_2
@@ -94,64 +104,23 @@ public class Topic implements Parcelable {
         }
     }
 
-    public static class FlashCardsRetriever {
 
-        public static ArrayList<FlashCard> filterStandardCards(ArrayList<FlashCard> flashCards,
-                                                               @StandardFlashCard.ContentType int contentType) {
-            ArrayList<FlashCard> filteredCards = new ArrayList<>();
-            for (FlashCard flashCard : flashCards) {
-                boolean isPaper2 = ((StandardFlashCard) flashCard).isPaper2();
-                boolean condition;
-                switch (contentType) {
-                    case StandardFlashCard.PAPER_1:
-                        condition = !isPaper2;
-                        break;
-                    case StandardFlashCard.PAPER_2:
-                        condition = isPaper2;
-                        break;
-                    case StandardFlashCard.ALL:
-                        condition = true;
-                        break;
-                    default:
-                        throw new IllegalArgumentException("content type '" + contentType +
-                                "' is invalid");
-                }
-                if (condition) filteredCards.add(flashCard);
-            }
-            return filteredCards;
-        }
-
-        public static ArrayList<FlashCard> filterLanguagesCards(ArrayList<FlashCard> flashCards,
-                                                                @LanguagesFlashCard.Tier int filterTier) {
-            ArrayList<FlashCard> filteredCards = new ArrayList<>();
-            for (FlashCard flashCard : flashCards) {
-                int flashCardTier = ((LanguagesFlashCard) flashCard).getTier();
-                if (flashCardTier == filterTier) {
-                    filteredCards.add(flashCard);
-                }
-            }
-            return filteredCards;
-        }
-
-    }
-
-    
-    protected Topic(Parcel in) {
+    protected CourseTopic(Parcel in) {
         mId = in.readInt();
         mIdentifier = in.readString();
         mName = in.readString();
         mCourse = in.readParcelable(Course.class.getClassLoader());
     }
 
-    public static final Creator<Topic> CREATOR = new Creator<Topic>() {
+    public static final Parcelable.Creator<CourseTopic> CREATOR = new Parcelable.Creator<CourseTopic>() {
         @Override
-        public Topic createFromParcel(Parcel in) {
-            return new Topic(in);
+        public CourseTopic createFromParcel(Parcel in) {
+            return new CourseTopic(in);
         }
 
         @Override
-        public Topic[] newArray(int size) {
-            return new Topic[size];
+        public CourseTopic[] newArray(int size) {
+            return new CourseTopic[size];
         }
     };
 
@@ -167,4 +136,5 @@ public class Topic implements Parcelable {
         dest.writeString(mName);
         dest.writeParcelable(mCourse, flags);
     }
+
 }
