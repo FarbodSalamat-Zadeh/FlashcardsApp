@@ -32,8 +32,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.satsumasoftware.flashcards.R;
-import com.satsumasoftware.flashcards.object.FlashCard;
-import com.satsumasoftware.flashcards.object.Topic;
+import com.satsumasoftware.flashcards.framework.FlashCard;
+import com.satsumasoftware.flashcards.framework.Topic;
 import com.satsumasoftware.flashcards.util.ThemeUtils;
 import com.satsuware.usefulviews.LabelledSpinner;
 

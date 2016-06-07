@@ -28,7 +28,7 @@ import android.view.View;
 
 import com.satsumasoftware.flashcards.R;
 import com.satsumasoftware.flashcards.db.MainDatabases;
-import com.satsumasoftware.flashcards.object.Course;
+import com.satsumasoftware.flashcards.framework.Course;
 import com.satsumasoftware.flashcards.ui.adapter.CoursesAdapter;
 
 import java.util.ArrayList;

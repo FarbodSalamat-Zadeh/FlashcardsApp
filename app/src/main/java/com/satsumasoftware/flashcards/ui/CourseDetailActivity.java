@@ -27,8 +27,8 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.satsumasoftware.flashcards.R;
-import com.satsumasoftware.flashcards.object.Course;
-import com.satsumasoftware.flashcards.object.Topic;
+import com.satsumasoftware.flashcards.framework.Course;
+import com.satsumasoftware.flashcards.framework.Topic;
 import com.satsumasoftware.flashcards.ui.adapter.TopicsAdapter;
 import com.satsumasoftware.flashcards.util.ThemeUtils;
 

@@ -19,7 +19,7 @@ package com.satsumasoftware.flashcards.util;
 import android.content.Context;
 import android.content.res.Resources;
 
-import com.satsumasoftware.flashcards.object.Course;
+import com.satsumasoftware.flashcards.framework.Course;
 
 public class ThemeUtils {
 

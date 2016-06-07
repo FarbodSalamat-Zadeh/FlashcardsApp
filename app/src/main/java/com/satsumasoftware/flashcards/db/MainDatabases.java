@@ -18,10 +18,10 @@ package com.satsumasoftware.flashcards.db;
 
 import android.content.Context;
 
-import com.satsumasoftware.flashcards.object.Course;
-import com.satsumasoftware.flashcards.object.ExamBoard;
-import com.satsumasoftware.flashcards.object.FlashCard;
-import com.satsumasoftware.flashcards.object.Subject;
+import com.satsumasoftware.flashcards.framework.Course;
+import com.satsumasoftware.flashcards.framework.ExamBoard;
+import com.satsumasoftware.flashcards.framework.FlashCard;
+import com.satsumasoftware.flashcards.framework.Subject;
 import com.satsumasoftware.flashcards.util.CsvUtils;
 import com.univocity.parsers.csv.CsvParser;
 

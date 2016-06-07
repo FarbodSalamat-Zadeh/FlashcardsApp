@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.satsumasoftware.flashcards.object;
+package com.satsumasoftware.flashcards.framework;
 
 import android.os.Parcel;
 import android.support.annotation.IntDef;

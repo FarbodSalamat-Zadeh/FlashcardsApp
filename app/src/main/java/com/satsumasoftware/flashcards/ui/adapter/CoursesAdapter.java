@@ -26,8 +26,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.satsumasoftware.flashcards.R;
-import com.satsumasoftware.flashcards.object.Course;
-import com.satsumasoftware.flashcards.object.Subject;
+import com.satsumasoftware.flashcards.framework.Course;
+import com.satsumasoftware.flashcards.framework.Subject;
 
 import java.util.ArrayList;
 
