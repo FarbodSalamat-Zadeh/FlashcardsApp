@@ -26,9 +26,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.satsumasoftware.flashcards.R;
@@ -126,9 +126,9 @@ public class TopicDetailActivity extends AppCompatActivity {
         assert button != null;
 
         if (mTopic.getFlashCards(this).size() == 0) {
-            LinearLayout linearLayout = (LinearLayout) findViewById(R.id.viewGroup_options);
-            assert linearLayout != null;
-            linearLayout.setVisibility(View.GONE);
+            ViewGroup optionsGroup = (ViewGroup) findViewById(R.id.viewGroup_options);
+            assert optionsGroup != null;
+            optionsGroup.setVisibility(View.GONE);
             button.setText(R.string.coming_soon);
             button.setEnabled(false);
             return;
