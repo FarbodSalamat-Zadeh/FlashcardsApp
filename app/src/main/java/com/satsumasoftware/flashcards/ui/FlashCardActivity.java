@@ -32,10 +32,10 @@ import android.widget.TextView;
 
 import com.satsumasoftware.flashcards.R;
 import com.satsumasoftware.flashcards.framework.Course;
-import com.satsumasoftware.flashcards.framework.FlashCard;
-import com.satsumasoftware.flashcards.framework.StandardFlashCard;
+import com.satsumasoftware.flashcards.framework.flashcard.FlashCard;
+import com.satsumasoftware.flashcards.framework.flashcard.StandardFlashCard;
 import com.satsumasoftware.flashcards.framework.Subject;
-import com.satsumasoftware.flashcards.framework.Topic;
+import com.satsumasoftware.flashcards.framework.topic.Topic;
 import com.satsumasoftware.flashcards.util.PrefUtils;
 import com.satsumasoftware.flashcards.util.ThemeUtils;
 import com.satsuware.usefulviews.FlippableView;

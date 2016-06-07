@@ -20,7 +20,7 @@ import android.content.Context;
 
 import com.satsumasoftware.flashcards.framework.Course;
 import com.satsumasoftware.flashcards.framework.ExamBoard;
-import com.satsumasoftware.flashcards.framework.FlashCard;
+import com.satsumasoftware.flashcards.framework.flashcard.FlashCard;
 import com.satsumasoftware.flashcards.framework.Subject;
 import com.satsumasoftware.flashcards.util.CsvUtils;
 import com.univocity.parsers.csv.CsvParser;

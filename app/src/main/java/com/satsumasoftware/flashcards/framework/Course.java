@@ -21,6 +21,9 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 import com.satsumasoftware.flashcards.db.MainDatabases;
+import com.satsumasoftware.flashcards.framework.flashcard.FlashCard;
+import com.satsumasoftware.flashcards.framework.topic.CourseTopic;
+import com.satsumasoftware.flashcards.framework.topic.Topic;
 import com.satsumasoftware.flashcards.util.CsvUtils;
 import com.univocity.parsers.csv.CsvParser;
 
@@ -77,7 +80,7 @@ public class Course implements Parcelable {
                 // topics csv files in the following format:
                 //      | id | identifier | name
                 int id = Integer.parseInt(line[0]);
-                topics.add(new Topic(id, line[1], line[2], this));
+                topics.add(new CourseTopic(id, line[1], line[2], this));
             }
         } catch (IOException e) {
             e.printStackTrace();
