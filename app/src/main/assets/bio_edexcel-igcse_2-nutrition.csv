@@ -1,7 +1,7 @@
 id,question,answer,page_ref,is_paper_2
-1,What are <em>carbohydrate</em> molecules made up of?,"&bull; They contain <b>carbon, hydrogen, and oxygen</b> <br>&bull; Long carbohydrates (like glycogen and starch) are made up of smaller molecules (like glucose and maltose) in long chains",12,0
-2,What are <em>proteins</em> made up of?,"&bull; All proteins contain <b>carbon, nitrogen, hydrogen and oxygen</b> <br>&bull; They are made from long chains of <b>amino acids</b>",12,0
-3,What are <em>lipids</em> made up of?,"&bull; Lipids contain the elements: <b>carbon, hydrogen and oxygen</b> (like carbohydrates) <br>&bull; They are built from <b>fatty acids and glycerol</b>",12,0
+1,What are <b>carbohydrate</b> molecules made up of?,"&bull; They contain <b>carbon, hydrogen, and oxygen</b> <br>&bull; Long carbohydrates (like glycogen and starch) are made up of smaller molecules (like glucose and maltose) in long chains",12,0
+2,What are <b>proteins</b> made up of?,"&bull; All proteins contain <b>carbon, nitrogen, hydrogen and oxygen</b> <br>&bull; They are made from long chains of <b>amino acids</b>",12,0
+3,What are <b>lipids</b> made up of?,"&bull; Lipids contain the elements: <b>carbon, hydrogen and oxygen</b> (like carbohydrates) <br>&bull; They are built from <b>fatty acids and glycerol</b>",12,0
 4,How can you test for glucose?,"<b>Benedict's Reagent</b>: <br><br>&bull; Add the reagent (it's blue) <br>&bull; Heat it (don't boil it though) <br>&bull; After some time (around 10 mins), ff glucose is present, it will form a colored precipitate (its color changes from blue gradually to red) <br>&bull; There will be more of a color change if the glucose is of a higher concentration",12,0
 5,What do you use to test for starch?,"<b>Iodine solution</b>: After adding iodine to the test sample, if starch is present the sample changes from <i>brown-orange</i> to <i>blue-black</i>, otherwise it will just remain <i>brown-orange</i>",12,0
 6,Give examples of foods where carbohydrates are found,"Pasta, rice, sugar, etc.",13,0
@@ -18,25 +18,25 @@ id,question,answer,page_ref,is_paper_2
 17,Dietary fibre is found in foods like...,Wholemeal bread,13,0
 18,What are dietary fibres used for?,Aiding the movement of food through the gut,13,0
 19,List the seven nutrients,&bull; Carbohydrates <br>&bull; Proteins <br>&bull; Lipids <br>&bull; Vitamins <br>&bull; Mineral ions <br>&bull; Dietary fibre <br>&bull; Water,13,0
-20,Why is a balanced diet important?,You get all the nutrients <em>in the right proportions</em>,13,1
+20,Why is a balanced diet important?,You get all the nutrients <b>in the right proportions</b>,13,1
 21,How do energy requirements vary between different people,<b>Activity level</b>: <br>More active people need more energy <br><br><b>Pregnancy</b>: <br>Pregnant women need more energy to provide to their developing babies <br><br><b>Age</b>: <br>Children and teenagers need more energy (than older people) as they are growing and are more active,13,1
 22,"To measure the amount of energy a food contains, it can be burnt. This is called...",Calorimetry,14,1
-24,"In calorimetry, how can the amount of energy be calculated?",<i>Energy (in J)</i>  = <i>Mass of Water (in g)</i> &times; <i>Temp. change of water (in &deg;C)</i> &times; 4.2,14,1
-25,"In the formula for calorimetry, what does <em>4.2</em> represent?",The amount of energy (in Joules) needed to heat 1g of water by 1 &deg;C,14,1
+24,"In calorimetry, how can the amount of energy be calculated?",Energy  = Mass of Water &times; Temp. change of water (in &deg;C) &times; 4.2,14,1
+25,"In the formula for calorimetry, what does <b>4.2</b> represent?",The amount of energy (in Joules) needed to heat 1g of water by 1 &deg;C,14,1
 26,How can the accuracy of a calorimetry experiment be increased?,"A lot of energy from burning can be lost to the surroundings, so <b>insulation</b> would keep more energy in the water and reduce the heat loss",14,1
-27,What do <em>digestive enzymes</em> do?,They break large molecules into smaller ones,15,0
+27,What do <b>digestive enzymes</b> do?,They break large molecules into smaller ones,15,0
 28,Why do large molecules need to be broken down by digestive enzymes?,The <b>large</b> molecules are <b>insoluble</b> and can't pass through the walls in the digestive system,15,0
 29,Amylase is used for...,Breaking down <b>starch</b> into <b>maltose</b>,15,0
-30,Maltose can be broken down into...,<b>Glucose</b> (by the enzyme <em>maltase<em>),15,0
+30,Maltose can be broken down into...,<b>Glucose</b> (by the enzyme <b>maltase</b>),15,0
 31,What do proteases do?,They convert <b>proteins</b> into <b>amino acids</b>,15,0
 32,Lipids are broken down to glycerol and fatty acids by...,Lipases,15,0
 33,Lipases are the enzyme used to break down...,<b>Lipids</b> into <b>fatty acids and glycerol</b>,15,0
-34,What does <em>bile</em> do?,<b>Neutralises stomach acid</b> and also <b>emulsifies fats</b> (breaking down fats into smaller droplets so they have a larger surface area for faster digestion),15,0
-35,Where is bile <em>produced</em>?,The liver,15,0
-36,Where is bile <em>stored</em>?,The gall bladder,15,0
+34,What does <b>bile</b> do?,<b>Neutralises stomach acid</b> and also <b>emulsifies fats</b> (breaking down fats into smaller droplets so they have a larger surface area for faster digestion),15,0
+35,Where is bile <b>produced</b>?,The liver,15,0
+36,Where is bile <b>stored</b>?,The gall bladder,15,0
 37,Enzymes in the small intestine (like bile) work best in what type of conditions?,<b>Alkaline</b> (bile has to neutralise the stomach acid for enzymes in the small intestine),15,0
 38,How does the mouth help with the breaking down of food?,"The mouth can help with digestion in two ways: chemically, and mechanically. <br><br>&bull; Saliva contains the enzyme <b>amylase</b>, which is produced by the <b>salivary glands</b> <br>&bull; Teeth also break down food <b>mechanically</b>",16,0
-39,Define <em>oesophagus</em>,"A part of the <em>alimentary canal</em>, it is a muscular tube which connects the mouth and the stomach",16,0
+39,Define <b>oesophagus</b>,"A part of the <b>alimentary canal</b>, it is a muscular tube which connects the mouth and the stomach",16,0
 40,What protease enzyme does the stomach produce?,Pepsin,16,0
 41,Why does the stomach produce hydrochloric acid?,To <b>kill bacteria</b> and give the protease enzymes the <b>right conditions</b> to work in (i.e. acidic),16,0
 42,What is the role of the pancreas?,"To <b>produce enzymes</b> (e.g. protease, amylase, lipase) which are then released into the small intestine (for digestion)",16,0
@@ -44,11 +44,11 @@ id,question,answer,page_ref,is_paper_2
 44,What happens in the large intestine?,Excess water is absorbed from the food,16,0
 45,In which part of the body does food leave the body?,Food leaves the body as faeces at the <b>anus</b>,16,0
 46,What is the name of the movement of food through the gut?,Peristalsis,16,0
-47,Describe the process of <em>peristalsis</em>,Balls of food (<em>boluses</em>) are moved through the gut by <b>waves of circular muscle contractions</b>,16,0
+47,Describe the process of <b>peristalsis</b>,Balls of food (<b>boluses</b>) are moved through the gut by <b>waves of circular muscle contractions</b>,16,0
 48,List the five main stages of digestion,1. Ingestion <br>2. Digestion <br>3. Absorption <br>4. Assimilation <br>5. Egestion,17,0
-49,What is <em>ingestion</em>?,Putting foods and drinks in your mouth,17,0
-50,Describe <em>digestion</em>,"Large and insoluble molecules are broken down into smaller, soluble ones using enzymes. Digestion can be done mechanically too - like how teeth breaks down food.",17,0
+49,What is <b>ingestion</b>?,Putting foods and drinks in your mouth,17,0
+50,Describe <b>digestion</b>,"Large and insoluble molecules are broken down into smaller, soluble ones using enzymes. Digestion can be done mechanically too - like how teeth breaks down food.",17,0
 51,What is absorption?,"Food is moved from the walls of the alimentary canal to the blood, so it can be used. Food molecules are absorbed in the small intestine whereas water molecules are mainly absorbed in the large intestine.",17,0
-52,Define <em>assimilation</em>,Digested molecules move into body cells and become a part of the cells,17,0
-53,What is <em>egestion</em>?,Undigested food forms faeces and leaves the body through the anus,17,0
+52,Define <b>assimilation</b>,Digested molecules move into body cells and become a part of the cells,17,0
+53,What is <b>egestion</b>?,Undigested food forms faeces and leaves the body through the anus,17,0
 54,How is the small intestine adapted for absorption?,"&bull; The <b>small intestine is long</b>, which means there's time for all food to be absorbed before it reaches the end <br><br>&bull; There is a very large surface area as the walls of the small intestine contain <b>villi</b> (small projections on the wall), and these villi contain millions of <b>microvilli</b> <br><br>&bull; The surface of the villi is only <b>one-cell thick and permeable</b>, so diffusion takes place faster <br><br>&bull; The villi have a <b>good blood supply</b>, so absorption is quick",17,0

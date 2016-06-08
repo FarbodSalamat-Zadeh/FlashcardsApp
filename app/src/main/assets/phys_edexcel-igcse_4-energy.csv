@@ -6,12 +6,12 @@ id,question,answer,page_ref,is_paper_2
 5,Potential energy (gravitational and elastic) and chemical energy are forms of...,Stored energy,44,0
 6,What is the <b>Principle of the Conservation of Energy</b>?,Energy cannot be created or destroyed; it can only be transferred from one energy form to another,44,0
 7,Energy transfers will always result in...,Losses in energy,45,0
-8,How can the efficiency of a device be calculated?,<i>Efficiency</i> = <i>Useful output energy</i> &divide; <i>Total input energy</i>,45,0
+8,How can the efficiency of a device be calculated?,Efficiency = Useful output energy &divide; Total input energy,45,0
 9,What are the three ways that heat energy can be transferred?,"Radiation, conduction, and convection",48,0
 10,"What is a Sankey diagram, and how are they drawn?",#see-guide,47,0
-11,Define <em>radiation</em>,The transfer of (heat) energy <b>by electromagnetic waves</b>,48,0
-12,Define <em>conduction</em>,<b>Vibrating particles</b> pass on their <b>extra kinetic energy</b> to <b>neighbouring particles</b> <br><br>Conduction occurs mainly <b>in solids</b>,48,0
-13,Define <em>convection</em>,More energetic particles <b>move</b> from the hotter region to the cooler region and <b>take their heat energy with them</b> <br><br>Convection occurs mainly <b>in fluids only</b> (liquids and gases),49,0
+11,Define <b>radiation</b>,The transfer of (heat) energy <b>by electromagnetic waves</b>,48,0
+12,Define <b>conduction</b>,<b>Vibrating particles</b> pass on their <b>extra kinetic energy</b> to <b>neighbouring particles</b> <br><br>Conduction occurs mainly <b>in solids</b>,48,0
+13,Define <b>convection</b>,More energetic particles <b>move</b> from the hotter region to the cooler region and <b>take their heat energy with them</b> <br><br>Convection occurs mainly <b>in fluids only</b> (liquids and gases),49,0
 14,Draw and label a diagram showing <b>convection currents</b> in a room with a radiator,#see-guide,49,0
 15,How can heat loss be reduced at home?,&bull; Loft insulation <br>&bull; Hot water tank jacket <br>&bull; Draught proofing <br>&bull; Cavity wall insulation <br>&bull; Thick curtains <br>&bull; Double glazing,50,0
 16,What material is often used (e.g. in loft insulation or a hot water tank jacket) to reduce heat loss?,A thick layer of wool made out of <b>fibreglass</b>,50,0
@@ -19,13 +19,13 @@ id,question,answer,page_ref,is_paper_2
 18,What is cavity wall insulation?,Foam is squirted into the gap between the bricks. This stops convection currrents in the gap and radiation across the gap. The air pockets and foam reduce heat loss by conduction.,50,0
 19,Humans can reduce the loss of heat from their bodies by...,"&bull; Having hairs stand on end <br>&bull; Wearing (warm) clothes <br><br>In both of these, warm air is trapped and kept in, keeping us warm",50,0
 20,Work done is...,Energy transferred when a force moves an object,51,0
-21,How is <em>work done</em> calculated?,<i>Work done</i> = <i>force</i> &times; <i>distance</i>,51,0
-22,"State the formula linking <em>power</em>, <em>work done</em> and <em>time taken</em>",<i>P</i> = <i>W</i> &divide; <i>t</i> <br><br><i>Power</i> = <i>Work done</i> &divide; <i>Time taken</i>,51,0
+21,How is <b>work done</b> calculated?,Work done = force &times; distance,51,0
+22,"State the formula linking power, work done and time taken",P = W &divide; t <br><br>Power = Work done &divide; Time taken,51,0
 23,Power is measured in...,Watts (or J/s),51,0
-24,How can kinetic energy be calculated?,<i>Kinetic Energy</i> = <sup>1</sup>&frasl;<sub>2</sub> &times; <i>mass</i> x <i>speed</i><sup>2</sup>,52,0
-25,What is the formula to calculate <em>gravitational potential energy</em>?,"<i>GPE</i> = <i>m g h</i> <br><br><i>(GPE = gravitational potential energy, <br>m = mass <br>g = gravitational field strength <br>h = height)</i>",52,0
+24,How can kinetic energy be calculated?,Kinetic Energy = <sup>1</sup>&frasl;<sub>2</sub> &times; mass x speed<sup>2</sup>,52,0
+25,What is the formula to calculate <b>gravitational potential energy</b>?,"GPE = m &times; g &times; h <br><br><i>(GPE = gravitational potential energy, <br>m = mass <br>g = gravitational field strength <br>h = height)</i>",52,0
 26,What is the approximate gravitational field strength on Earth?,10 m/s<sup>2</sup>,52,0
-27,"When an object falls, <i>Kinetic Energy gained</i> = ...",Gravitational Potential Energy lost,52,0
+27,"When an object falls, kinetic energy gained = ...",Gravitational Potential Energy lost,52,0
 28,Name the four non-renewable sources of energy,&bull; Coal <br>&bull; Oil <br>&bull; Natural gas <br>&bull; Nuclear fuels,53,0
 29,What do power stations usually use to drive a turbine?,Steam,53,0
 30,What are some <b>advantages</b> of using <b>fossil fuels</b>?,"&bull; It's <b>reliable</b> (e.g. doesn't rely on the weather like most renewable energy sources) <br>&bull; Burning fossil fuels releases a lot of energy, <b>quite cheaply</b> <br>&bull; There are already a lot of fossil fuel power stations, so there is no need to spend extra money on new technology to use them",53,1
@@ -36,7 +36,7 @@ id,question,answer,page_ref,is_paper_2
 35,What are some <b>disadvantages</b> of <b>nuclear power</b>?,"&bull; <b>Expensive</b> to build and maintain <br>&bull; Processing the uranium before using it causes pollution <br>&bull; <b>Risks of catastrophes</b> like at Chernobyl <br>&bull; Radioactive waste <br>&bull; When the power stations get too old or inefficient, they need to be shut down safely (<b>decommissioned</b>) which is also <b>expensive</b>",54,1
 36,What are some <b>advantages</b> of <b>wind power</b>?,&bull; Quite <b>cheap</b> to run (wind is free) <br>&bull; They <b>don't produce polluting waste</b> <br>&bull; They're <b>renewable</b>,54,1
 37,What are some <b>disadvantages</b> of <b>wind power</b>?,"&bull; They can spoil the view - especially when around <b>1500 are needed to replace one coal power station</b> <br>&bull; They can be <b>noisy</b> <br>&bull; Sometimes, the <b>wind isn't strong enough</b> to generate much power <br>&bull; Initially, they are <b>expensive to set up</b> (especially at sea)",54,1
-38,Describe <em>geothermal energy</b>,"In places where hot rocks lie near to the surface, <b>water is pumped</b> in pipes down to those rocks and forced back up (due to pressure), which drives a generator <br><br><i>(Heat energy &rarr; Kinetic &rarr; Electrical)</i>",54,0
+38,Describe <b>geothermal energy</b>,"In places where hot rocks lie near to the surface, <b>water is pumped</b> in pipes down to those rocks and forced back up (due to pressure), which drives a generator <br><br><i>(Heat energy &rarr; Kinetic &rarr; Electrical)</i>",54,0
 39,What are some <b>advantages</b> of <b>geothermal energy</b>?,"&bull; It's a free, <b>renewable</b> source of energy with <b>no environmental problems</b>",54,1
 40,What are some <b>disadvantages</b> of <b>geothermal energy</b>?,&bull; <b>Expensive</b> to drill down several kilometers <br>&bull; <b>High costs</b> to build a power plant compared to the amount of energy we can get from it <br>&bull; It is only <b>possible in very few places</b>,54,1
 41,What are some <b>advantages</b> of <b>solar power</b>?,&bull; <b>Renewable</b> energy source <br>&bull; They're a good way to power things that don't use much energy (like calculators),55,1

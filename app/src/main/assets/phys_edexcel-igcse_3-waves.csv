@@ -3,16 +3,16 @@ id,question,answer,page_ref,is_paper_2
 2,What is frequency?,The number of complete waves passing a point per second,30,0
 3,Frequency is measured in...,<b>Hertz</b> (Hz),30,0
 4,What is amplitude?,The <b>height of a wave</b> on a graph (the distance from the rest position to the peak or trough),30,0
-5,How is <em>wave speed</em> calculated?,<em>Wave speed</em> = <em>frequency</em> &times; <em>wavelength</em> <br><br><em>v</em> = <em>f</em>&lambda;,30,0
+5,How is <bwave speed</b> calculated?,Wave speed = frequency &times; wavelength <br><br>v = f&lambda;,30,0
 6,What waves are transverse?,<b>Electromagnetic waves</b> (e.g. visible light),30,0
 7,Name a type of wave that is longitudinal,<b>Sound waves</b> (and ultrasound),30,0
 8,In which direction do transverse waves vibrate?,<b>Perpendicular to the direction energy is transferred</b> by the wave (e.g. up and down if the wave was travelling to the right),30,0
 9,In which direction do longitudinal waves travel?,<b>Parallel to the direction energy is transferred</b> by the wave (e.g. sideways if the wave was travelling to the right),30,0
 10,What waves can be used to transfer information?,Light signals through optical wires and radio waves,30,0
 11,What are the three ways that a wave can change direction?,"Reflection, refraction and diffraction",31,0
-12,Define <em>reflection</em>,Waves 'bounce off' a material,31,0
-13,Define <em>refraction</em>,Waves <b>pass through</b> a material and <b>change direction</b> (because they change speed when they enter a medium of different density),31,0
-14,Define <em>diffraction</em>,Waves spread out by 'bending round' edges and gaps,31,1
+12,Define <b>reflection</b>,Waves 'bounce off' a material,31,0
+13,Define <b>refraction</b>,Waves <b>pass through</b> a material and <b>change direction</b> (because they change speed when they enter a medium of different density),31,0
+14,Define <b>diffraction</b>,Waves spread out by 'bending round' edges and gaps,31,1
 15,"When a wave passes through a gap wider than it, there is...",Little diffraction,31,1
 16,"In waves, maximum diffraction occurs when...",The length of the gap is the same as the wavelength,31,1
 17,Diffraction occurs more when...,The wavelength is longer,31,1
@@ -25,7 +25,7 @@ id,question,answer,page_ref,is_paper_2
 24,Optical fibres work by...,Bouncing light waves on the sides of the very thin core (they use total internal reflection),33,0
 25,Give examples of the use(s) of <b>optical fibres</b>,&bull; Communication <br>&bull; Medical purposes (to see inside a body) <br>&bull; As lights on artificial Christmas trees,33,0
 26,Which type of EM wave do fluorescent lamps use?,Ultraviolet,34,0
-27,Describe the chemical property <em>fluorescence</em>,Absorbing ultraviolet radiation and emitting visible light,34,0
+27,Describe the chemical property <b>fluorescence</b>,Absorbing ultraviolet radiation and emitting visible light,34,0
 28,"In an X-ray image, the brighter areas (white) show...","Where <b>fewer X-rays</b> pass through (e.g. bones appear white in an X-ray image because the bones absorb them, and so they do not pass through)",34,0
 29,Radiographers use these to protect themselves from radiation,Lead shields/aprons,34,0
 30,Give an example of a use of <b>gamma radiation</b>,Sterilising food and equipment,34,0
@@ -37,31 +37,31 @@ id,question,answer,page_ref,is_paper_2
 36,What type of wave is visible light?,<b>Transverse</b> (the same as all other electromagnetic waves),36,0
 37,What happens when a light wave reflects off an uneven surface?,The light <b>reflects at all different angles</b> - the result is called a <b>diffuse reflection</b>,36,0
 38,What happens when light is reflected from an even surface?,"The light is all <b>reflected at the same angle</b>, so there is a <b>clear reflection</b>",36,0
-39,What is the <em>Law of Reflection</em>?,<i>Angle of Incidence</i> = <i>Angle of Reflection</i>,36,0
-40,Define <em>virtual image</em>,"Light from an object appears to be coming from a different place. It's formed when the light rays bouncing off an object onto a mirror are <i>diverging</i>. <br><br>It's like looking at an object through the mirror, what you see is the virtual image - the actual object is somewhere else.",36,0
+39,What is the <b>Law of Reflection</b>?,<i>Angle of Incidence</i> = <i>Angle of Reflection</i>,36,0
+40,Define <b>virtual image</b>,"Light from an object appears to be coming from a different place. It's formed when the light rays bouncing off an object onto a mirror are <i>diverging</i>. <br><br>It's like looking at an object through the mirror, what you see is the virtual image - the actual object is somewhere else.",36,0
 41,Electromagnetic waves travel faster in...,Less dense materials <br><br><i>(So they travel slower in denser media)</i>,37,0
 42,What happens when white light enters a triangular prism?,It disperses into different colors,37,0
 43,Why does a triangular prism disperse white light?,"A rectangular block has parallel boundaries, but in triangular prisms, these <b>aren't parallel</b>. <br><br>This means the <b>different wavelengths of light refract by different amounts</b> resulting in the rainbow effect.",37,0
 44,"As light enters a material, if the refractive index is higher, the speed...",Decreases,37,0
-45,What is <em>Snell's Law</em>?,"<i>n</i> = sin <i>i</i> &divide; sin <i>r<i> <br><br><i>(n = refractive index, <br>i = angle of incidence, <br>r = angle of refraction)</i>",38,0
-46,What does the <em>refractive index</em> tell us?,The speed of light in a particular material,38,0
+45,What is <b>Snell's Law</b>?,"<i>n</i> = sin <i>i</i> &divide; sin <i>r<i> <br><br><i>(n = refractive index, <br>i = angle of incidence, <br>r = angle of refraction)</i>",38,0
+46,What does the <b>refractive index</b> tell us?,The speed of light in a particular material,38,0
 47,Light bends away from the normal when...,The light <b>speeds up</b> as it enters that material (by travelling from a material with a high refractive index to one with a lower refractive index),38,0
 48,"When the angle of refraction is 90&deg;, light refracts along the...",Boundary,39,0
-49,What is a <em>critical angle</em>?,"If the angle of incidence, <b><i>i</i>, is increased</b>, the angle of refraction, <b><i>r</i>, gets closer to 90&deg</b>. <br><br>Eventually <i>i</i> reaches a <b>critical angle</b> where <b><i>r</i> = 90&deg;</b>.",39,0
-50,When does <em>total internal reflection</em> occur?,When the angle of incidence is <b>greater</b> than the critical angle,39,0
-51,State the formula linking the <em>critical angle</em> and <em>refractive index</em>,"sin <i>C</i> = 1 &divide; <i>n</i> <br><br><i>(C = critical angle, <br>n = refractive index of the material)</i>",39,0
+49,What is a <b>critical angle</b>?,"If the angle of incidence, <b><i>i</i>, is increased</b>, the angle of refraction, <b><i>r</i>, gets closer to 90&deg</b>. <br><br>Eventually <i>i</i> reaches a <b>critical angle</b> where <b><i>r</i> = 90&deg;</b>.",39,0
+50,When does <b>total internal reflection</b> occur?,When the angle of incidence is <b>greater</b> than the critical angle,39,0
+51,State the formula linking the <b>critical angle</b> and <b>refractive index</b>,"sin <i>C</i> = 1 &divide; <i>n</i> <br><br><i>(C = critical angle, <br>n = refractive index of the material)</i>",39,0
 52,Give an example of where total internal reflection can be used,&bull; Optical fibres <br>&bull; Diamonds,39,0
 53,"Optical fibres use <b>total internal reflection</b>, but they stop working if...",The fibre is bent too sharply,39,0
 54,"To transmit information, it needs to converted into...",Electrical signals (analogue or digital),40,1
-55,What's the difference between <em>analogue</em> and <em>digital</em> signals?,"Analogue signals can take any value within a particular range, whereas digital signals can only take two values (on/off or 1/0)",40,1
+55,What's the difference between <b>analogue</b> and <b>digital</b> signals?,"Analogue signals can take any value within a particular range, whereas digital signals can only take two values (on/off or 1/0)",40,1
 56,What is the main advantage of digital signals over analogue?,"Electrical signals pick up <b>interference</b> (noise). Digital signals are easy to repair as it can only have one of two values - a noisy analogue signal could be anything. <br><br>Also, because interference is not such a major issue in digital signals, you can transmit more digital signals along the same channel without worrying about it.",40,1
-57,Describe <em>quantisation</em>,"<b>The process of rounding a continuous range of values into a smaller set of values</b> <br><br>Digital signals (with only two values) would not be very much affected by this process, but in analogue signals, quality can be lost when these values are rounded.",40,1
+57,Describe <b>quantisation</b>,"<b>The process of rounding a continuous range of values into a smaller set of values</b> <br><br>Digital signals (with only two values) would not be very much affected by this process, but in analogue signals, quality can be lost when these values are rounded.",40,1
 58,What type of waves are sound waves?,Longitudinal,41,0
 59,What is the approximate hearing range of the human ear?,"Between 20 and 20,000 Hz",41,0
 60,Sound waves are caused by...,The vibration of particles,41,0
 61,Sound waves are generally reflected by...,"Hard, flat surfaces (softer surfaces absorb sound more)",41,0
 62,Sound waves are faster in...,"<b>Denser media</b> (so sound cannot travel through a vacuum). This means that generally, sound travels faster in solids than in gases.",41,0
 63,What does a microphone do?,Converts sound into electrical signals,41,1
-64,"In sound waves, what does a higher <em>amplitude</em> result in?",Louder sound,41,1
+64,"In sound waves, what does a higher <b>amplitude</b> result in?",Louder sound,41,1
 65,Sound waves are measured using a(n)...,Oscilloscope,42,0
 66,"In sound waves, what does a <b>higher frequency</b> result in?",Higher pitch,42,1
