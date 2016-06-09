@@ -50,6 +50,7 @@ public class FlashCardActivity extends AppCompatActivity {
 
     protected static final String SAVED_CARD_LIST = "saved_card_list";
     protected static final String SAVED_CARD_COUNT = "saved_card_count";
+    protected static final String SAVED_CARD_STATE = "saved_card_state";
 
     private Topic mTopic;
     private ArrayList<FlashCard> mFlashCards;
@@ -138,10 +139,14 @@ public class FlashCardActivity extends AppCompatActivity {
             }
         });
 
-        showFlashCardPair(inflater);
+        showFlashCardPair(inflater, savedInstanceState);
     }
 
     private void showFlashCardPair(LayoutInflater inflater) {
+        showFlashCardPair(inflater, null);
+    }
+
+    private void showFlashCardPair(LayoutInflater inflater, Bundle savedInstanceState) {
         mCounterText.setText(getResources().getString(R.string.flashcards_count, mCardCount, mNumOfCards));
         mButtonPrevious.setText(getResources().getString((mCardCount == 1) ?
                 R.string.flashcards_quit : R.string.flashcards_previous));
@@ -159,6 +164,13 @@ public class FlashCardActivity extends AppCompatActivity {
         answerText.setText(flashCard.getAnswer());
 
         mFlippableView.setFrontAndBackViews(questionCard, answerCard);
+
+        if (savedInstanceState != null) {
+            boolean showBack = savedInstanceState.getBoolean(SAVED_CARD_STATE);
+            if (showBack) {
+                mFlippableView.flip();
+            }
+        }
     }
 
     @Override
@@ -167,6 +179,7 @@ public class FlashCardActivity extends AppCompatActivity {
 
         outState.putParcelableArrayList(SAVED_CARD_LIST, mFlashCards);
         outState.putInt(SAVED_CARD_COUNT, mCardCount);
+        outState.putBoolean(SAVED_CARD_STATE, mFlippableView.isBackShowing());
     }
 
     @Override
