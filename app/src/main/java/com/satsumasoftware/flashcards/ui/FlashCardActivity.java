@@ -168,7 +168,7 @@ public class FlashCardActivity extends AppCompatActivity {
         if (savedInstanceState != null) {
             boolean showBack = savedInstanceState.getBoolean(SAVED_CARD_STATE);
             if (showBack) {
-                mFlippableView.flip();
+                mFlippableView.flip(false);
             }
         }
     }
