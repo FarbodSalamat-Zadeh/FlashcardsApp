@@ -1,0 +1,39 @@
+id,question,answer,page_ref,is_paper_2
+1,Why do metals need to be extracted?,"Most metals (those that are not unreactive) <b>react</b> with other elements, forming compounds which are found naturally. These compounds that contain enough of the metal to make it <b>worthwhile extracting</b> are called <b>metal ores</b>. <br><br>So metal ores need to be <b>extracted</b> so we can take out the metal and use it.",66,0
+2,A reaction that <b>separates</b> a metal from the oxygen in its oxide is called a...,Reduction reaction,66,0
+3,How do you decide how to extract a metal from its ore?,"If the metal is <b>less reactive</b> than <b>carbon</b>: <br>You can <b>heat</b> it with <b>carbon monoxide</b> so that the carbon 'steals' the oxygen from your metal oxide. <br><br>If it is <b>more reactive</b> than <b>carbon</b>: <br>It becomes difficult to get the metal out of its compound (as it is very <b>stable</b>), so you extract the metal using <b>electrolysis</b>.",66,0
+4,Name five elements <b>more reactive</b> than <b>carbon</b>,&bull; Potassium (K) <br>&bull; Sodium (Na) <br>&bull; Calcium (Ca) <br>&bull; Magnesium (Mg) <br>&bull; Aluminium (Al),66,0
+5,List three elements <b>less reactive</b> than <b>carbon</b>,&bull; Zinc (Zn) <br>&bull; Iron (Fe) <br>&bull; Tin (Sn),66,0
+6,What is the main ore of aluminium called?,Bauxite,67,0
+7,"After mining and purifying bauxite, a white powder is left, known as...",Pure aluminium oxide (Al<sub>2</sub>O<sub>3</sub>),67,0
+8,State the melting point of pure aluminium oxide (Al<sub>2</sub>O<sub>3</sub>),Over <b>2000 &deg;C</b>,67,0
+9,How is the cost of melting pure aluminium oxide made cheaper?,It is <b>dissolved</b> in <b>molten cryolite</b> (a less common ore of aluminium) to <b>lower</b> the melting point to about <b>900 &deg;C</b>. <br><br>This makes it <b>cheaper</b> and <b>easier</b> than melting pure aluminium oxide.,67,0
+10,Electrodes used for electrolysing aluminium oxide in cryolite are made of...,<b>Graphite</b> (a good conductor of electricity),67,0
+11,Name the process used to extract aluminium from aluminium oxide,Electrolysis,67,0
+12,Why can electrolysis be expensive?,&bull; It uses <b>a lot of electricity</b> which can make it <b>expensive</b> <br>&bull; Energy is needed to <b>heat</b> the electrolyte mixture <br>&bull; The <b>disappearing positive electrodes</b> need frequent <b>replacement</b>,67,0
+13,Iron is extracted from...,"<b>Haematite</b> (iron oxide, Fe<sub>2</sub>O<sub>3</sub>)",68,0
+14,How can iron ore be reduced to iron?,"&bull; <b>Hot air</b> is blasted into the furnace, and <b>coke burns</b> to produce <b>carbon dioxide</b> <br>&bull; The <b>CO<sub>2</sub></b> then reacts with <b>unburnt coke</b> to form <b>CO</b> <br>&bull; The <b>carbon monoxide</b> then <b>reduces</b> the <b>iron ore</b> to <b>iron</b> <br>The <b>iron</b> is <b>molten/b> and also <b>dense</b>, so it runs to the <b>bottom</b> of the furnace where it's <b>tapped off</b>.",68,0
+15,What is the formula for <b>iron(III) oxide</b>?,Fe<sub>2</sub>O<sub>3</sub>,68,0
+16,What is the main impurity when extracting iron and what removes it?,<b>Sand</b> (silicon dioxide) <br>...which is still <b>solid</b> even at 1500 &deg;C and tends to stay mixed in with the iron. <br><br><b>The limestone removes it</b>.,68,0
+17,How does limestone remove impurities when extracting iron?,"&bull; The limestone (CaCO<sub>3</sub>) is <b>decomposed</b> by the <b>heat</b> into <b>CaO</b> and <b>CO<sub>2</sub></b> <br>&bull; The <b>calcium oxide</b> then reacts with the <b>sand</b> to form <b>slag</b> (calcium silicate, CaSiO<sub>3</sub>)",68,0
+18,What can <b>slag</b> be used for?,&bull; Road-building <br>&bull; Fertiliser,68,0
+19,What is the formula for <b>limestone</b>?,CaCO<sub>3</sub>,68,0
+20,State the formula for (molten) <b>slag</b> (or calcium silicate),CaSiO<sub>3</sub>,68,0
+21,What are some common properties of iron and aluminium?,"&bull; They are both <b>dense</b> and <b>lustrous</b> (shiny) <br>&bull; They have <b>high melting points</b> (Fe melts at 1538 &deg;C, Al at 660 &deg;C) <br>&bull; Both have a <b>high tensile strength</b> (strong and hard to break) <br>&bull; They're both <b>malleable</b> <br>&bull; Both are <b>good conductors</b> of <b>electricity</b> and <b>heat</b>",69,0
+22,What is <b>wrought iron</b> and what can it be used for?,"It is almost completely <b>pure iron</b> <br><br>It's malleable, so it's used to make <b>ornamental gates and railings</b>.",69,0
+23,What are three <b>alloys</b> of iron?,"&bull; <b>Cast iron</b> (mixture of iron, carbon and silicon) <br>&bull; <b>Steel</b> (made of iron, carbon and usually some other metals) <br>&bull; <b>Stainless steel</b> (made of iron and chromium)",69,0
+24,What can <b>cast iron</b> be used for and why?,"It's used for manhole covers and some <b>cooking pans</b>. <br><br>This is because it's very hard, but <b>brittle</b>.",69,0
+25,Describe what property of <b>steel</b> makes it useful,"It's <b>harder</b> than pure iron, but can still be hammered easily into sheets and welded together. <br><br>This makes steel great for making <b>car bodies</b> and <b>girders</b> (for construction).",69,0
+26,Identify the main issue with iron,"It <b>corrodes easily</b> (i.e. it <b>rusts</b>) <br><br><b>Stainless steel</b> is an alloy that <b>doesn't rust</b> so it can be used for <b>knives, forks, cooking pans</b> etc.",69,0
+27,Why is aluminium used for drinks cans (and not iron)?,Aluminium <b>doesn't corrode</b> (rust) so it's useful for products that come in contact with <b>water</b>,69,0
+28,Why is aluminium better in bicycle frames and aeroplanes instead of iron?,"Aluminium is much <b>less dense</b> than iron, which makes it <b>lighter</b>",69,0
+29,What process is used to separate crude oil?,Fractional distillation,70,0
+30,How does fractional distillation separate crude oil into fractions?,"&bull; The oil is <b>heated</b> until most of it has turned into <b>gas</b>. The liquid bit, <b>bitumen</b>, is <b>drained off</b> at the bottom. <br>&bull; The gases enter a <b>fractionating column</b> where there's a <b>temperature gradient</b> (hot at the bottom, cooler at the top). <br>&bull; When the substances that make up crude oil reach a part of the column where the temperature is <b>lower</b> than their boiling point, they <b>condense</b>. <br>&bull; So <b>longer</b> hydrocarbons (<b>high</b> boiling points) condense at the <b>bottom</b> and the opposite happens for shorter hydrocarbons. <br>&bull; <b>Bubble caps</b> in the fractionating column stop separated liquids from running back down the column and <b>remixing</b>. <br>&bull; In the end, each fraction contains a mixture of hydrocarbons with <b>similar boiling points</b>.",70,0
+31,List the fractions of crude oil in order (starting from the smallest hydrocarbon length),&bull; Refinery gases <br>&bull; Gasoline <br>&bull; Naphtha <br>&bull; Kerosene (parrafin) <br>&bull; Diesel <br>&bull; Fuel oil <br>&bull; Bitumen,70,0
+32,What can <b>refinery gases</b> be used for?,&bull; Bottled gas <br>&bull; Heating <br>&bull; Used in pottery and glass manufacture,70,0
+33,What is the main use of <b>gasoline</b> (from crude oil)?,"Fuel for cars, etc.",70,0
+34,What can <b>naphtha</b> (from crude oil) be used for?,"Used in the chemical industry as a 'feedstock' (starting material) to make plastics, dyes, drugs, explosives, paints, etc.",70,0
+35,Identify some uses of <b>kerosene</b> (from crude oil),&bull; Jet engines <br>&bull; Domestic heating <br>&bull; Paint solvent,70,0
+36,State the main use for <b>diesel</b> (from crude oil),"Fuel for diesel engines in cars, trucks, trains, boats, etc.",70,0
+37,What is the <b>fuel oil</b> fraction of crude oil used for?,Domestic central heating and fuel for big ships,70,0
+38,State some uses of <b>bitumen</b>,Road surfacing and asphalt for roofs,70,0
