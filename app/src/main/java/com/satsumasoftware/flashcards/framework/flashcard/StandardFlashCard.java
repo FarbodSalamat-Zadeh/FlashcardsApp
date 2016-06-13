@@ -66,9 +66,14 @@ public class StandardFlashCard implements FlashCard {
             return Html.fromHtml("This answer is too long to fit on a flashcard, but you can " +
                     "check <b>page " + mPageRef + "</b> of the revision guide (\"<em>" +
                     mTopic.getCourse().getRevisionGuideName() + "</em>\") for details.");
-        } else {
-            return Html.fromHtml(mAnswer);
         }
+
+        String finalAnswer = mAnswer;
+        finalAnswer = finalAnswer.replace("<sub>", "<sub><small>")
+                .replace("</sub>", "</small></sub>")
+                .replace("<sup>", "<sup><small>")
+                .replace("</sup>", "</small></sup>");
+        return Html.fromHtml(finalAnswer);
     }
 
     @Override
