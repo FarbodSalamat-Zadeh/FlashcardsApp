@@ -44,7 +44,7 @@
     </style>
     <style name="AppStyle.CardView.Text.Subtitle">
         <item name="android:textSize">@dimen/card_text_primary_subtitle</item>
-        <item name="android:textColor">@color/text_black_secondary</item>
+        <item name="android:textColor">@color/mdu_text_black_secondary</item>
     </style>
     <style name="AppStyle.CardView.Text.Supporting">
         <item name="android:textSize">@dimen/card_text_supporting</item>
@@ -57,7 +57,7 @@
     <!-- LINEARLAYOUT -->
     <style name="AppStyle.LinearLayout" />
     <style name="AppStyle.LinearLayout.Footer" parent="Widget.AppCompat.ButtonBar">
-        <item name="android:background">@color/white</item>
+        <item name="android:background">@color/mdu_white</item>
         <item name="android:gravity">center_vertical|end</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>

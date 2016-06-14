@@ -32,13 +32,13 @@
         android:layout_height="wrap_content">
         <TextView
             android:id="@+id/title"
-            android:textColor="@color/text_white"
+            android:textColor="@color/mdu_text_white"
             style="@style/AppStyle.CardView.Text.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <TextView
             android:id="@+id/subtitle"
-            android:textColor="@color/text_white_secondary"
+            android:textColor="@color/mdu_text_white_secondary"
             style="@style/AppStyle.CardView.Text.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

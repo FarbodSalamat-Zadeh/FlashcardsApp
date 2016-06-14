@@ -69,7 +69,7 @@
         <Button
             android:id="@+id/button_previous"
             android:text="@string/flashcards_previous"
-            android:textColor="@color/text_black_secondary"
+            android:textColor="@color/mdu_text_black_secondary"
             style="@style/AppStyle.Button.Flat"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"/>

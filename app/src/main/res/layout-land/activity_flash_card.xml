@@ -40,7 +40,7 @@
         <Button
             android:id="@+id/button_previous"
             android:text="@string/flashcards_previous"
-            android:textColor="@color/text_white_secondary"
+            android:textColor="@color/mdu_text_white_secondary"
             style="@style/AppStyle.Button.Flat"
             android:background="?colorPrimaryDark"
             android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
         <Button
             android:id="@+id/button_next"
             android:text="@string/flashcards_next"
-            android:textColor="@color/text_white_secondary"
+            android:textColor="@color/mdu_text_white_secondary"
             style="@style/AppStyle.Button.Flat"
             android:background="?colorPrimaryDark"
             android:layout_width="wrap_content"

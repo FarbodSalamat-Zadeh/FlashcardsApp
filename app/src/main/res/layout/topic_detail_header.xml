@@ -28,7 +28,7 @@
     <TextView
         android:id="@+id/subject_text"
         android:text="Subject"
-        android:textColor="@color/text_white_secondary"
+        android:textColor="@color/mdu_text_white_secondary"
         android:gravity="center"
         style="@style/AppStyle.CardView.Text.Title.Medium"
         android:layout_width="match_parent"
@@ -36,7 +36,7 @@
     <TextView
         android:id="@+id/topic_text"
         android:text="Some long topic name"
-        android:textColor="@color/text_white"
+        android:textColor="@color/mdu_text_white"
         android:gravity="center"
         style="@style/AppStyle.CardView.Text.Title"
         android:layout_width="match_parent"
