@@ -85,10 +85,10 @@ public class LanguagesFlashCard implements FlashCard {
 
     protected LanguagesFlashCard(Parcel in) {
         mId = in.readInt();
+        mTier = in.readInt();
         mEnglish = in.readString();
         mAnswerPrefix = in.readString();
         mAnswer = in.readString();
-        mTier = in.readInt();
         mTopic = in.readParcelable(Topic.class.getClassLoader());
     }
 
