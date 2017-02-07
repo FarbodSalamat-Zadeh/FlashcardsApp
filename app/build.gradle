@@ -15,6 +15,7 @@
  */
 
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 25
@@ -40,6 +41,9 @@ android {
 dependencies {
     // Include libraries put in the libs directory
     compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    // Kotlin standard library
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
     // Android Support libraries
     compile "com.android.support:appcompat-v7:$android_support_lib_version"
